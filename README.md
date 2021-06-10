@@ -1,10 +1,14 @@
 # cross-lingual-amr-parsing
 
-This is the implementation of [Making Better Use of Bilingual Information for Cross-Lingual AMR Parsing]() in Findings of ACL 2021
+This is the implementation of [Making Better Use of Bilingual Information for Cross-Lingual AMR Parsing](https://arxiv.org/abs/2106.04814) in Findings of ACL 2021
 
 ### Dependency
 
 Before training, download the pretrained S2S-AMR-Parser in [this repo](https://github.com/xdqkid/S2S-AMR-Parser)
+
+The training data in English we used is [AMR 2.0](https://catalog.ldc.upenn.edu/LDC2017T10). To get training data in DE, IT, ES and ZH, use [MarianMT](https://huggingface.co/transformers/model_doc/marian.html) or other machine translation system. 
+
+The test data in DE, IT, ES and ZH can be found [here](https://catalog.ldc.upenn.edu/LDC2020T07). 
 
 ### Train and Predict
 
