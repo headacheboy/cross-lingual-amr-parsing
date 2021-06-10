@@ -15,11 +15,17 @@ The test data in DE, IT, ES and ZH can be found [here](https://catalog.ldc.upenn
 Use codes in `AMR_scripts/` to preprocess and postprocess the AMR graph. 
 
 Preprocessing:
+
 ```
 python var_free_amrs.py -f sample_input/sample.txt
 ```
 
 Postprocessing:
+first remove BPE of outputs
+```
+sed -r 's/(@@ )|(@@ ?$)//g' sent.amr.bpe > sent.amr
+```
+then run the code
 ```
 python postprocess_AMRs.py -f sample_output/sample.txt
 ```
@@ -39,3 +45,7 @@ python cross_translate.py --decode_extra_length 1000 --minimal_relative_prob 0.0
 ```
 
 Notice that model_path for predicting is the model trained by this code instead of the S2S-AMR-Parser.
+
+### Acknowledgements
+
+We adapt the code from [S2S-AMR-Parser](https://github.com/xdqkid/S2S-AMR-Parser) and [RikVN/AMR](https://github.com/RikVN/AMR). Thanks to their open-source project. 
