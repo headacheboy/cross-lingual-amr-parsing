@@ -1,0 +1,2289 @@
+# AMR-English alignment release (generated on Sun Mar 6, 2016 at 21:21:33)
+
+# ::id bolt12_07_4800.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Establishing Models in Industrial Innovation
+# ::alignments 0-1 1-1.1 2-1.1.1.r 3-1.1.1.1 4-1.1.1
+(e / establish-01~e.0 
+      :ARG1 (m / model~e.1 
+            :mod~e.2 (i / innovate-01~e.4 
+                  :ARG1 (i2 / industry~e.3))))
+
+# ::id bolt12_07_4800.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok After its competitor invented the front loading washing machine , the CEO of the American IM company believed that each of its employees had the ability for innovation , and formulated strategic countermeasures for innovation in the industry .
+# ::alignments 0-1.3 1-1.3.1.1.1.1 1-1.3.1.1.1.1.r 2-1.3.1.1.1 3-1.3.1 5-1.3.1.2.2.1 6-1.3.1.2.2 7-1.3.1.2.1 8-1.3.1.2 11-1.1.1.1.2 11-1.1.1.1.2.1 11-1.1.1.1.2.1.r 11-1.1.1.1.2.2 11-1.1.1.1.2.2.r 11-1.2.1 11-1.2.1.1 11-1.2.1.1.r 11-1.2.1.2 11-1.2.1.2.r 12-1.1.1.1 14-1.1.1.1.1.3.2.1 14-1.1.1.1.1.3.2.2 15-1.1.1.1.1.2.1 16-1.3.1.1 17-1.1 18-1.1.2.r 19-1.1.2.1.2 22-1.1.2.1 22-1.1.2.1.1 22-1.1.2.1.1.r 25-1.1.2 26-1.1.2.2.r 27-1.1.2.2 29-1 30-1.2 31-1.2.2.1 32-1.2.2 33-1.2.2.2.r 34-1.2.2.2 35-1.2.2.2.1.r 37-1.2.2.2.1
+(a / and~e.29 
+      :op1 (b / believe-01~e.17 
+            :ARG0 (p2 / person 
+                  :ARG0-of (h2 / have-org-role-91~e.12 
+                        :ARG1 (c2 / company :wiki - 
+                              :name (n / name :op1 "IM"~e.15) 
+                              :mod (c3 / country :wiki "United_States" 
+                                    :name (n2 / name :op1 "United"~e.14 :op2 "States"~e.14))) 
+                        :ARG2 (o / officer~e.11 
+                              :mod~e.11 (e3 / executive~e.11) 
+                              :mod~e.11 (c7 / chief~e.11)))) 
+            :ARG1~e.18 (c8 / capable-01~e.25 
+                  :ARG1 (p / person~e.22 
+                        :ARG1-of~e.22 (e / employ-01~e.22 
+                              :ARG0 c2) 
+                        :mod (e2 / each~e.19)) 
+                  :ARG2~e.26 (i / innovate-01~e.27 
+                        :ARG0 p))) 
+      :op2 (f / formulate-01~e.30 
+            :ARG0 (o2 / officer~e.11 
+                  :mod~e.11 (e4 / executive~e.11) 
+                  :mod~e.11 (c / chief~e.11)) 
+            :ARG1 (c4 / countermeasure~e.32 
+                  :mod (s / strategy~e.31) 
+                  :purpose~e.33 (i2 / innovate-01~e.34 
+                        :prep-in~e.35 (i3 / industry~e.37)))) 
+      :time (a3 / after~e.0 
+            :op1 (i4 / invent-01~e.3 
+                  :ARG0 (c5 / company~e.16 
+                        :ARG0-of (c6 / compete-02~e.2 
+                              :ARG1~e.1 c2~e.1)) 
+                  :ARG1 (m / machine~e.8 
+                        :ARG0-of (w / wash-01~e.7) 
+                        :ARG1-of (l / load-01~e.6 
+                              :mod (f2 / front~e.5))))))
+
+# ::id bolt12_07_4800.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok 1 . Establish an innovation fund with a maximum amount of 1,000 U.S. dollars .
+# ::alignments 0-1.1 2-1 4-1.2.1 5-1.2 6-1.2.2.r 8-1.2.2.1 9-1.2.2 10-1.2.2.1.1.r 11-1.2.2.1.1.1 12-1.2.2.1.1.2.1.2.1 12-1.2.2.1.1.2.1.2.2 13-1.2.2.1.1.2
+(e / establish-01~e.2 :li 1~e.0 
+      :ARG1 (f2 / fund~e.5 
+            :purpose (i / innovate-01~e.4) 
+            :ARG1-of~e.6 (a / amount-01~e.9 
+                  :ARG2 (a2 / at-most~e.8 
+                        :op1~e.10 (m / monetary-quantity :quant 1000~e.11 
+                              :unit (d / dollar~e.13 
+                                    :mod (c / country :wiki "United_States" 
+                                          :name (n / name :op1 "United"~e.12 :op2 "States"~e.12))))))))
+
+# ::id bolt12_07_4800.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok 2 . Choose 100 innovative concepts to encourage employees to conduct research and development during their work time or spare time .
+# ::alignments 0-1.1 2-1 3-1.2.1 4-1.2.2 5-1.2 7-1.3 8-1.3.2 8-1.3.2.1 8-1.3.2.1.r 11-1.3.3.1 12-1.3.3 13-1.3.3.2 14-1.3.3.3.r 15-1.3.3.3.1.1 15-1.3.3.3.1.1.r 16-1.3.3.3.1 17-1.3.3.3.2 17-1.3.3.3.r 18-1.3.3.3 19-1.3.3.3.2.2 20-1.3.3.3.2
+(c / choose-01~e.2 :li 2~e.0 
+      :ARG1 (c2 / concept~e.5 :quant 100~e.3 
+            :ARG1-of (i / innovate-01~e.4)) 
+      :purpose (e / encourage-01~e.7 
+            :ARG0 c2 
+            :ARG1 (p / person~e.8 
+                  :ARG1-of~e.8 (e2 / employ-01~e.8)) 
+            :ARG2 (a / and~e.12 
+                  :op1 (r / research-01~e.11 
+                        :ARG0 p) 
+                  :op2 (d / develop-02~e.13 
+                        :ARG0 p) 
+                  :time~e.14,17 (o / or~e.18 
+                        :op1 (w / work-01~e.16 
+                              :ARG0~e.15 p~e.15) 
+                        :op2 (t2 / time~e.17,20 
+                              :poss p 
+                              :mod (s / spare~e.19))))))
+
+# ::id bolt12_07_4800.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok 3 . From among them , pick out 50 for submission to an assessment committee to assess .
+# ::alignments 0-1.1 4-1.3 6-1 7-1 8-1.2.1 10-1.2 10-1.2.2 10-1.2.2.r 13-1.2.2.1.1 13-1.2.2.2 14-1.2.2.1 16-1.2.2.2
+(p / pick-out-03~e.6,7 :li 3~e.0 
+      :ARG1 (t / thing~e.10 :quant 50~e.8 
+            :ARG1-of~e.10 (s / submit-01~e.10 
+                  :ARG2 (c / committee~e.14 
+                        :ARG0-of (a / assess-01~e.13)) 
+                  :ARG3 (a2 / assess-01~e.13,16 
+                        :ARG0 c 
+                        :ARG1 t))) 
+      :ARG2 (t2 / they~e.4))
+
+# ::id bolt12_10465_5552.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Since the Tangshan Earthquake , the starting point for construction standards in the mainland is that under an earthquake of the same magnitude , buildings should preserve their basic frame without collapsing .
+# ::alignments 0-1.3.2 2-1.3.2.1.2.1 3-1.3.2.1 6-1.1 7-1 8-1.1.1.r 9-1.1.1.1 10-1.1.1 11-1.2.r 13-1.2 14-1.3.r 18-1.3.3 19-1.3.3.1.r 21-1.3.3.1.1 22-1.3.3.1 22-1.3.3.1.1.1 24-1.3.1.1 25-1.3 26-1.3.1 27-1.3.1.2.3 27-1.3.1.2.3.r 28-1.3.1.2.2 29-1.3.1.2 30-1.3.1.3.1 30-1.3.1.3.1.r 31-1.3.1.3
+(p2 / point~e.7 
+      :mod (s / start-01~e.6 
+            :ARG1~e.8 (s2 / standard~e.10 
+                  :mod (c3 / construct-01~e.9))) 
+      :location~e.11 (m / mainland~e.13) 
+      :domain~e.14 (r / recommend-01~e.25 
+            :ARG1 (p / preserve-01~e.26 
+                  :ARG0 (b / building~e.24) 
+                  :ARG1 (f / frame~e.29 
+                        :part-of (t / thing) 
+                        :mod (b2 / basic~e.28) 
+                        :poss~e.27 b~e.27) 
+                  :manner (c2 / collapse-01~e.31 :polarity~e.30 -~e.30 
+                        :ARG1 f)) 
+            :time (s3 / since~e.0 
+                  :op1 (e / earthquake~e.3 :wiki "1976_Tangshan_earthquake" 
+                        :name (n / name :op1 "Tangshan"~e.2))) 
+            :condition (e2 / earthquake~e.18 
+                  :mod~e.19 (m2 / magnitude~e.22 
+                        :ARG1-of (s4 / same-01~e.21 
+                              :ARG2 (m3 / magnitude~e.22 
+                                    :poss e))))))
+
+# ::id bolt12_10465_5552.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok However , most of the buildings in this hard @-@ hit area did not meet these requirements , with the widespread collapse of school buildings in particular arousing intense public disgust .
+# ::alignments 0-1 2-1.1.1.2.1 3-1.1.1.2.1.r 5-1.1.1.2 5-1.1.1.2.2.1 6-1.1.1.2.2.1.1.r 7-1.1.1.2.2.1.1.2 8-1.1.1.2.2.1.1.1.1 10-1.1.1.2.2.1.1.1 11-1.1.1.2.2.1.1 13-1.1.1.1 13-1.1.1.1.r 14-1.1.1 15-1.1.1.2.2.1.1.2 15-1.1.1.3.2 16-1.1.1.3 16-1.1.1.3.1 16-1.1.1.3.1.r 18-1.1.r 20-1.1.2.1.2 20-1.1.2.1.2.1 20-1.1.2.1.2.1.r 21-1.1.2.1 22-1.1.2.1.1.r 23-1.1.2.1.1.1 24-1.1.2.1.1 26-1.1.2.3 27-1.1.2 28-1.1.2.2.2 29-1.1.2.2.1 30-1.1.2.2
+(c / contrast-01~e.0 
+      :ARG2~e.18 (a / and 
+            :op1 (m / meet-01~e.14 :polarity~e.13 -~e.13 
+                  :ARG0 (b / building~e.5 
+                        :quant~e.3 (m2 / most~e.2) 
+                        :ARG1-of (i2 / include-91 
+                              :ARG2 (b3 / building~e.5 
+                                    :location~e.6 (a3 / area~e.11 
+                                          :ARG1-of (h / hit-01~e.10 
+                                                :ARG1-of (h2 / hard-04~e.8)) 
+                                          :mod (t5 / this~e.7,15))))) 
+                  :ARG1 (t2 / thing~e.16 
+                        :ARG1-of~e.16 (r / require-01~e.16) 
+                        :mod (t3 / this~e.15))) 
+            :op2 (a2 / arouse-01~e.27 
+                  :ARG0 (c2 / collapse-01~e.21 
+                        :ARG1~e.22 (b2 / building~e.24 
+                              :mod (s3 / school~e.23)) 
+                        :ARG1-of (s2 / spread-02~e.20 
+                              :ARG1-of~e.20 (w / wide-02~e.20))) 
+                  :ARG1 (d / disgust-01~e.30 
+                        :ARG1 (p / public~e.29) 
+                        :ARG1-of (i / intense-02~e.28)) 
+                  :mod (p2 / particular~e.26))))
+
+# ::id bolt12_10465_5552.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Raising standards to in excess of Tangshan 's 8.0 magnitude could leave authorities with some breathing space for explanation , and alleviate public anger .
+# ::alignments 0-1.1.1.1 1-1.1.1.1.1 2-1.1.1.1.2.r 3-1.1.1.1.2 4-1.1.1.1.2 5-1.1.1.1.2 6-1.1.1.1.2.1.2.2.1 8-1.1.1.1.2.1.1 9-1.1.1.1.2.1.1.r 10-1 11-1.1.1 12-1.1.1.2.1 14-1.1.1.2.2.2 15-1.1.1.2.2.1 16-1.1.1.2.2 17-1.1.1.2.2.3.r 18-1.1.1.2.2.3 20-1.1 21-1.1.2 22-1.1.2.2.1 23-1.1.2.2
+(p / possible-01~e.10 
+      :ARG1 (a / and~e.20 
+            :op1 (l / leave-13~e.11 
+                  :ARG0 (r / raise-01~e.0 
+                        :ARG1 (s / standard~e.1) 
+                        :ARG4~e.2 (i / in-excess-of~e.3,4,5 
+                              :op1 (s2 / seismic-quantity :quant~e.9 8.0~e.8 
+                                    :poss (e2 / earthquake :wiki "1976_Tangshan_earthquake" 
+                                          :name (n / name :op1 "Tangshan"~e.6))))) 
+                  :ARG1 (h / have-03 
+                        :ARG0 (a3 / authority~e.12) 
+                        :ARG1 (s3 / space~e.16 
+                              :mod (b / breathe-01~e.15) 
+                              :quant (s4 / some~e.14) 
+                              :purpose~e.17 (e3 / explain-01~e.18 
+                                    :ARG0 a3)))) 
+            :op2 (a2 / alleviate-01~e.21 
+                  :ARG0 r 
+                  :ARG1 (a4 / anger-01~e.23 
+                        :ARG1 (p2 / public~e.22)))))
+
+# ::id bolt12_10465_5552.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok According to information leaked from numerous channels , we can say for certain that before the earthquake struck , the serious earthquake risk in the Ngawa region was already well known to the CCP .
+# ::alignments 0-1 1-1 2-1.1 3-1.1.1 4-1.1.1.1.r 5-1.1.1.1.1 6-1.1.1.1 8-1.2.1.1 9-1.2 10-1.2.1 11-1.2.1.3.r 12-1.2.1.3 13-1.2.1.2.r 14-1.2.1.2.3 16-1.2.1.2.3.1.1 17-1.2.1.2.3.1 20-1.2.1.2.2.2 21-1.2.1.2.2.1 22-1.2.1.2.2 23-1.2.1.2.2.3.r 25-1.2.1.2.2.3.2.1 26-1.2.1.2.2.3 28-1.2.1.2.4 29-1.2.1.2.5 30-1.2.1.2 31-1.2.1.2.1.r 33-1.2.1.2.1.2.1
+(s / say-01~e.0,1 
+      :ARG0 (i2 / information~e.2 
+            :ARG1-of (l / leak-01~e.3 
+                  :ARG0~e.4 (c / channel~e.6 
+                        :quant (n / numerous~e.5)))) 
+      :ARG1 (p / possible-01~e.9 
+            :ARG1 (s2 / say-01~e.10 
+                  :ARG0 (w / we~e.8) 
+                  :ARG1~e.13 (k / know-02~e.30 
+                        :ARG0~e.31 (p2 / political-party :wiki "Communist_Party_of_China" 
+                              :name (n3 / name :op1 "CCP"~e.33)) 
+                        :ARG1 (r / risk-01~e.22 
+                              :ARG2 (e / earthquake~e.21) 
+                              :ARG1-of (s4 / serious-02~e.20) 
+                              :location~e.23 (l2 / local-region~e.26 :wiki "Ngawa_Tibetan_and_Qiang_Autonomous_Prefecture" 
+                                    :name (n2 / name :op1 "Ngawa"~e.25))) 
+                        :time (b / before~e.14 
+                              :op1 (s3 / strike-01~e.17 
+                                    :ARG2 (e2 / earthquake~e.16))) 
+                        :time (a / already~e.28) 
+                        :ARG1-of (w2 / well-09~e.29)) 
+                  :manner~e.11 (c2 / certain~e.12))))
+
+# ::id bolt12_10465_5552.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Although current forecasting standards cannot give us an accurate prediction of the exact time , place , and strength of an earthquake , there is considerable experience accumulated both in China and overseas in predicting to within the timeframe of a month , and the area of a province .
+# ::alignments 0-1 1-1.2.2.1.2 2-1.2.2.1.1 3-1.2.2.1 4-1.2 4-1.2.1 4-1.2.1.r 6-1.2.2.4 8-1.2.2.3 9-1.2.2 10-1.2.2.2.r 12-1.2.2.2.4 13-1.2.2.2.1 15-1.2.2.2.2 17-1.2.2.2 18-1.2.2.2.3 19-1.2.2.2.1.1.r 21-1.2.2.2.1.1 25-1.1.1.1 26-1.1.1 27-1.1 29-1.1.1.2.r 29-1.1.2.r 30-1.1.2.1.2.1 31-1.1.2 32-1.1.2.2 33-1.1.1.2.r 34-1.1.1.2.1 34-1.1.1.2.2 35-1.1.1.2.1.1.r 36-1.1.1.2.1.1.1.r 40-1.1.1.2.1.1.1 41-1.1.1.2.1.1 41-1.1.1.2.1.1.2 41-1.1.1.2.1.1.2.r 43-1.1.1.2 45-1.1.1.2.2.1 46-1.1.1.2.2.1.1.r 48-1.1.1.2.2.1.1
+(h / have-concession-91~e.0 
+      :ARG1 (a / accumulate-01~e.27 
+            :ARG1 (e / experience~e.26 
+                  :quant (c3 / considerable~e.25) 
+                  :prep-in~e.29,33 (a7 / and~e.43 
+                        :op1 (p2 / predict-01~e.34 
+                              :extent~e.35 (t2 / temporal-quantity~e.41 :quant~e.36 1~e.40 
+                                    :unit~e.41 (m / month~e.41))) 
+                        :op2 (p6 / predict-01~e.34 
+                              :ARG1 (a6 / area~e.45 
+                                    :part-of~e.46 (p5 / province~e.48))))) 
+            :location~e.29 (a5 / and~e.31 
+                  :op1 (c4 / country :wiki "China" 
+                        :name (n / name :op1 "China"~e.30)) 
+                  :op2 (o / overseas~e.32))) 
+      :ARG2 (p / possible-01~e.4 :polarity~e.4 -~e.4 
+            :ARG1 (p3 / predict-01~e.9 
+                  :ARG0 (s / standard~e.3 
+                        :mod (f / forecast-01~e.2) 
+                        :time (c2 / current~e.1)) 
+                  :ARG1~e.10 (a4 / and~e.17 
+                        :op1 (t / time~e.13 
+                              :time-of~e.19 (e2 / earthquake~e.21)) 
+                        :op2 (p4 / place~e.15 
+                              :location-of e2) 
+                        :op3 (s2 / strong-02~e.18 
+                              :ARG1 e2) 
+                        :mod (e3 / exact~e.12)) 
+                  :mod (a3 / accurate~e.8) 
+                  :beneficiary (w2 / we~e.6))))
+
+# ::id bolt12_10465_5552.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In regions where the earthquake risk is high , warning the public and spreading disaster prevention awareness could greatly reduce casualties during earthquakes ; this is the very minimum duty that any responsible government should undertake .
+# ::alignments 1-1.1.1.3 2-1.1.1.3.1.r 2-1.1.1.3.r 4-1.1.1.3.1.1.1 5-1.1.1.3.1.1 7-1.1.1.3.1 9-1.1.1.1.1 11-1.1.1.1.1.1 12-1.1.1.1 13-1.1.1.1.2 14-1.1.1.1.2.1.1.1 15-1.1.1.1.2.1.1 16-1.1.1.1.2.1 17-1.1 18-1.1.1.4 19-1.1.1 20-1.1.1.2 21-1.1.1.5.r 22-1.1.1.5 24-1.2.1 25-1.2.1.r 27-1.2.2.1 28-1.2.2 29-1.2 31-1.2.3.1.3 32-1.2.3.1.2 33-1.2.3.1 33-1.2.3.1.1 33-1.2.3.1.1.r 34-1.2.3.2 35-1.2.3
+(m2 / multi-sentence 
+      :snt1 (p / possible-01~e.17 
+            :ARG1 (r2 / reduce-01~e.19 
+                  :ARG0 (a2 / and~e.12 
+                        :op1 (w / warn-01~e.9 
+                              :ARG2 (p2 / public~e.11)) 
+                        :op2 (s / spread-03~e.13 
+                              :ARG1 (a3 / awareness~e.16 
+                                    :topic (p3 / prevent-01~e.15 
+                                          :ARG1 (d2 / disaster~e.14))))) 
+                  :ARG1 (c / casualty~e.20) 
+                  :location~e.2 (r / region~e.1 
+                        :location-of~e.2 (h / high-02~e.7 
+                              :ARG1 (r3 / risk-01~e.5 
+                                    :ARG2 (e / earthquake~e.4)))) 
+                  :extent (g / great~e.18) 
+                  :time~e.21 e~e.22)) 
+      :snt2 (d / duty~e.29 
+            :domain~e.25 (t / this~e.24) 
+            :mod (m / minimum~e.28 
+                  :degree (v / very~e.27)) 
+            :ARG1-of (u / undertake-01~e.35 
+                  :ARG0 (g3 / government-organization~e.33 
+                        :ARG0-of~e.33 (g2 / govern-01~e.33) 
+                        :ARG1-of (r4 / responsible-02~e.32) 
+                        :mod (a4 / any~e.31)) 
+                  :ARG1-of (r5 / recommend-01~e.34))))
+
+# ::id bolt12_10465_5552.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In the past the CCP has done a lot of these sorts of things , but on this occasion not only did nothing , but in response to queries from the public pulled out some whopping lies , playing syntax games with words like " geological disaster " and " earthquake disaster ".
+# ::alignments 2-1.2.3 4-1.2.1.2.1 6-1.2 8-1.2.2.1 9-1.2.2.1.r 10-1.2.2.2.1 11-1.2.2.2 12-1.2.2.2.r 13-1.1.2.2 13-1.1.2.3.1.2 13-1.1.3 13-1.2.2 15-1 16-1.1.3.2.r 17-1.1.3.2 18-1.1.3.1 19-1.1.1.3.1 19-1.1.1.3.1.r 20-1.1.1.3 21-1.1.1 22-1.1.1.2 24-1 26-1.1.2 27-1.1.2.2.1.r 28-1.1.2.2.1 29-1.1.2.2.1.1.r 31-1.1.2.2.1.1 32-1.1.2.3.1 33-1.1.2.3.1.3 34-1.1.2.3.1.2.2 35-1.1.2.3.1.2.3 36-1.1.2.3.1.2.1 38-1.1.2.3.2 39-1.1.2.3.2.2.1 40-1.1.2.3.2.2 41-1.1.2.3.2.3.r 42-1.1.2.3.2.3 43-1.1.2.3.2.3.1.r 45-1.1.2.3.2.3.1.1.1 46-1.1.2.3.2.3.1.1 48-1.1.2.3.2.3.1 50-1.1.2.3.2.3.1.2.1 51-1.1.2.3.2.3.1.2
+(h / have-concession-91~e.15,24 
+      :ARG1 (a3 / and 
+            :op1 (d2 / do-02~e.21 
+                  :ARG0 p5 
+                  :ARG1 (n / nothing~e.22) 
+                  :mod (o2 / only~e.20 :polarity~e.19 -~e.19)) 
+            :op2 (r / respond-01~e.26 
+                  :ARG0 p5 
+                  :ARG1 (t4 / thing~e.13 
+                        :ARG2-of~e.27 (q / query-01~e.28 
+                              :ARG0~e.29 (p4 / public~e.31))) 
+                  :ARG2 (a / and 
+                        :op1 (p / pull-01~e.32 
+                              :ARG0 p5 
+                              :ARG1 (t5 / thing~e.13 
+                                    :ARG1-of (l2 / lie-08~e.36) 
+                                    :quant (s2 / some~e.34) 
+                                    :mod (w / whopping~e.35)) 
+                              :ARG2 (o4 / out~e.33)) 
+                        :op2 (p2 / play-01~e.38 
+                              :ARG0 p5 
+                              :ARG1 (g / game~e.40 
+                                    :mod (s3 / syntax~e.39)) 
+                              :ARG2~e.41 (w2 / word~e.42 
+                                    :example~e.43 (a2 / and~e.48 
+                                          :op1 (d3 / disaster~e.46 
+                                                :mod (g2 / geology~e.45)) 
+                                          :op2 (d4 / disaster~e.51 
+                                                :mod (e / earthquake~e.50))))))) 
+            :time (t6 / thing~e.13 
+                  :ARG1-of (o / occasion-02~e.18) 
+                  :mod~e.16 (t / this~e.17))) 
+      :ARG2 (d / do-02~e.6 
+            :ARG0 (p5 / political-party :wiki "Communist_Party_of_China" 
+                  :name (n2 / name :op1 "CCP"~e.4)) 
+            :ARG1 (t2 / thing~e.13 
+                  :quant~e.9 (l / lot~e.8) 
+                  :mod~e.12 (s / sort~e.11 
+                        :mod (t3 / this~e.10))) 
+            :time (p3 / past~e.2)))
+
+# ::id bolt12_10465_5592.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I think that if our Earthquake Administration had been able beforehand to do a simulation of big earthquakes on this Longmenshan mountain earthquake belt , then on that day of May 12 , once the Earthquake Administration had measured the quake at a magnitude of 7.8 , we would have been able to broadly judge the extent of damage and destruction in the earthquake disaster zone .
+# ::alignments 0-1.1 1-1 2-1.2.4.1 3-1.2.2.r 4-1.2.1.1 5-1.2.2.1.1.2.1 6-1.2.2.1.1.2.2 9-1.2.2 10-1.2.2.1.3 14-1.2.2.1 15-1.2.2.1.2.r 16-1.2.2.1.2.1 17-1.2.2.1.2 18-1.2.2.1.2.2.r 19-1.2.2.1.2.2.3 20-1.2.2.1.2.2.2.2.1 21-1.2.2.1.2.2.2 22-1.2.2.1.2.2.1 23-1.2.2.1.2.2 27-1.2.4.1 28-1.2.4 30-1.2.4.2.1.1 30-1.2.4.2.1.1.r 31-1.2.4.2.1.2 35-1.2.2.1.1.2.1 36-1.2.2.1.1.2.2 38-1.2.3 40-1.2.3.2 41-1.2.3.3.r 43-1.2.3.3.1.r 45-1.2.3.3.1 47-1.2.1.1 51-1.2 53-1.2.1.3 53-1.2.1.3.r 54-1.2.1 56-1.2.1.2 57-1.2.1.2.1.r 58-1.2.1.2.1.1 59-1.2.1.2.1 60-1.2.1.2.1.2 61-1.2.1.2.2.r 63-1.2.1.2.2.1.1 64-1.2.1.2.2.1 65-1.2.1.2.2
+(t / think-01~e.1 
+      :ARG0 (i / i~e.0) 
+      :ARG1 (p / possible-01~e.51 
+            :ARG1 (j / judge-01~e.54 
+                  :ARG0 (w / we~e.4,47) 
+                  :ARG1 (e / extent~e.56 
+                        :extent-of~e.57 (a / and~e.59 
+                              :op1 (d / damage-01~e.58) 
+                              :op2 (d2 / destroy-01~e.60)) 
+                        :location~e.61 (z / zone~e.65 
+                              :mod (d3 / disaster~e.64 
+                                    :mod (e2 / earthquake~e.63)))) 
+                  :manner~e.53 (b / broad~e.53)) 
+            :condition~e.3 (p2 / possible-01~e.9 
+                  :ARG1 (s / simulate-01~e.14 
+                        :ARG0 (g / government-organization :wiki "China_Earthquake_Administration" 
+                              :name (n / name :op1 "Earthquake"~e.5,35 :op2 "Administration"~e.6,36) 
+                              :poss w) 
+                        :ARG1~e.15 (e3 / earthquake~e.17 
+                              :mod (b3 / big~e.16) 
+                              :location~e.18 (b4 / belt~e.23 
+                                    :mod (e4 / earthquake~e.22) 
+                                    :mod (m / mountain~e.21 :wiki "Longmen_Mountains" 
+                                          :name (n2 / name :op1 "Longmenshan"~e.20)) 
+                                    :mod (t2 / this~e.19))) 
+                        :time (b2 / beforehand~e.10))) 
+            :time (m2 / measure-01~e.38 
+                  :ARG0 g 
+                  :ARG1 (q / quake~e.40) 
+                  :ARG3~e.41 (s2 / seismic-quantity :quant~e.43 7.8~e.45)) 
+            :time (d5 / day~e.28 
+                  :mod (t3 / that~e.2,27) 
+                  :ARG1-of (m3 / mean-01 
+                        :ARG2 (d4 / date-entity :month~e.30 5~e.30 :day 12~e.31)))))
+
+# ::id bolt12_10465_5592.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok If the simulation program was well designed , circumstances like debris blocking roads , heavy rainfall obstructing parachute drops , power and communication outages should all have been within expectations .
+# ::alignments 0-1.2.r 2-1.2.1.1 3-1.2.1 5-1.2.2 6-1.2 8-1.1.1 9-1.1.1.2.r 10-1.1.1.2.1.2 11-1.1.1.2.1 12-1.1.1.2.1.1 14-1.1.1.2.2.1.1 16-1.1.1.2.2 17-1.1.1.2.2.2.1 18-1.1.1.2.2.2 20-1.1.1.2.3.1 21-1.1.1.2 22-1.1.1.2.4.1 23-1.1.1.2.3 23-1.1.1.2.4 24-1 25-1.1.1.1 29-1.1.2
+(r4 / recommend-01~e.24 
+      :ARG1 (c3 / conform-01 
+            :ARG1 (c / circumstance~e.8 
+                  :mod (a / all~e.25) 
+                  :example~e.9 (a2 / and~e.21 
+                        :op1 (b2 / block-01~e.11 
+                              :ARG1 (r2 / road~e.12) 
+                              :ARG3 (d2 / debris~e.10)) 
+                        :op2 (o2 / obstruct-01~e.16 
+                              :ARG0 (r / rain-01 
+                                    :manner (h / heavy~e.14)) 
+                              :ARG1 (d3 / drop-01~e.18 
+                                    :ARG1 (p2 / parachute~e.17))) 
+                        :op3 (o3 / outage~e.23 
+                              :mod (p3 / power-01~e.20)) 
+                        :op4 (o / outage~e.23 
+                              :mod (c2 / communicate-01~e.22)))) 
+            :ARG2 (e / expect-01~e.29)) 
+      :condition~e.0 (d / design-01~e.6 
+            :ARG1 (p / program~e.3 
+                  :purpose (s / simulate-01~e.2)) 
+            :manner (g / good-02~e.5)))
+
+# ::id bolt12_10465_5592.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Instead in this instance the Liberation Army headquarters emergency contingency plan obviously was not a contingency plan designed with earthquakes as the assumed condition , as the soldiers all rushed straight to Wenchuan , without immediately sending out troops in the direction of badly @-@ hit areas Beichuan , Qingchuan and Gansu 's Longnan ; only 24 hours later was the full extent of the disaster area taken into consideration .
+# ::alignments 0-1.1.7 1-1.1.3.r 2-1.1.3.1 3-1.1.3 5-1.1.1.1.1.2.1 6-1.1.1.1.1.2.2 7-1.1.1.1 8-1.1.1.2.1 9-1.1.1.2 9-1.1.5 10-1.1 10-1.1.1 10-1.1.1.r 11-1.1.4 13-1.1.6.1 13-1.1.6.1.r 15-1.1.5 16-1.1 17-1.1.6 18-1.1.6.2.r 19-1.1.6.2.1 20-1.1.2.1.2.4.r 22-1.1.6.2 23-1.1.6.2.2 23-1.1.6.2.2.1 23-1.1.6.2.2.1.r 25-1.1.2.1.2.4.r 27-1.1.2.1.1.1 28-1.1.2.1.1.1.1 29-1.1.2.1.1 30-1.1.2.1.1.3 31-1.1.2.1.1.2.r 32-1.1.2.1.1.2.2.1 34-1.1.2.1.2.1 34-1.1.2.1.2.1.r 35-1.1.2.1.2.4 36-1.1.2.1.2 38-1.1.2.1.2.2 39-1.1.3.r 42-1.1.2.1.2.3.r 42-1.1.7 43-1.1.2.1.2.3.4.1 45-1.1.2.1.2.3.4 46-1.2.1.1 47-1.1.2.1.2.3.1.2.1 49-1.1.2.1.2.3.2.2.1 50-1.1.2.1.2.3 51-1.1.2.1.2.3.3.3.2.1 52-1.1.2.1.2.3.3.3.r 53-1.1.2.1.2.3.3.2.1 55-1.2.2.1.3 56-1.2.2.1.1 57-1.2.2.1.2 58-1.2.2 58-1.2.2.2 58-1.2.2.2.r 61-1.2.1.2 62-1.2.1 62-1.2.1.1.r 65-1.2.1.1.1 66-1.2.1.1 69-1.2
+(m2 / multi-sentence 
+      :snt1 (p / plan-01~e.10,16 
+            :ARG1~e.10 (p2 / plan-01~e.10 
+                  :ARG0 (h3 / headquarters~e.7 
+                        :mod (m3 / military :wiki "People's_Liberation_Army" 
+                              :name (n / name :op1 "Liberation"~e.5 :op2 "Army"~e.6))) 
+                  :mod (c3 / contingency~e.9 
+                        :mod (e / emergency~e.8))) 
+            :ARG1-of (c2 / cause-01 
+                  :ARG0 (a2 / and 
+                        :op1 (r / rush-01~e.29 
+                              :ARG0 (s2 / soldier~e.27 
+                                    :mod (a4 / all~e.28)) 
+                              :ARG2~e.31 (c6 / county :wiki "Wenchuan_County" 
+                                    :name (n6 / name :op1 "Wenchuan"~e.32)) 
+                              :ARG1-of (s3 / straight-04~e.30)) 
+                        :op2 (s / send-03~e.36 :polarity~e.34 -~e.34 
+                              :ARG1 (t4 / troop~e.38) 
+                              :ARG5~e.42 (a6 / and~e.50 
+                                    :op1 (c7 / city :wiki "Beichuan_Qiang_Autonomous_County" 
+                                          :name (n5 / name :op1 "Beichuan"~e.47)) 
+                                    :op2 (c8 / city :wiki "Qingchuan_County" 
+                                          :name (n4 / name :op1 "Qingchuan"~e.49)) 
+                                    :op3 (c9 / city :wiki "Longnan" 
+                                          :name (n3 / name :op1 "Longnan"~e.53) 
+                                          :location~e.52 (p3 / province :wiki "Gansu" 
+                                                :name (n2 / name :op1 "Gansu"~e.51))) 
+                                    :ARG1-of (h / hit-01~e.45 
+                                          :ARG1-of (b / bad-05~e.43))) 
+                              :time~e.20,25 (i3 / immediate~e.35)))) 
+            :prep-in~e.1,39 (i2 / instance~e.3 
+                  :mod (t / this~e.2)) 
+            :ARG1-of (o / obvious-01~e.11) 
+            :mod (c4 / contingency~e.9,15) 
+            :ARG1-of (d / design-01~e.17 :polarity~e.13 -~e.13 
+                  :manner~e.18 (a3 / assume-02~e.22 
+                        :ARG1 (e2 / earthquake~e.19) 
+                        :ARG2 (t2 / thing~e.23 
+                              :ARG2-of~e.23 (c5 / condition-01~e.23)))) 
+            :ARG1-of (i / instead-of-91~e.0,42)) 
+      :snt2 (c / consider-02~e.69 
+            :ARG1 (e3 / extent~e.62 
+                  :extent-of~e.62 (a7 / area~e.46,66 
+                        :mod (d2 / disaster~e.65)) 
+                  :mod (f / full~e.61)) 
+            :time (l / late~e.58 
+                  :op1 (t5 / temporal-quantity :quant 24~e.56 
+                        :unit (h2 / hour~e.57) 
+                        :mod (o2 / only~e.55)) 
+                  :degree~e.58 (m / more~e.58))))
+
+# ::id bolt12_10465_5592.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In addition , the breakdown in communication also brought a serious problem to the surface . In the past , Red Army regiments were able to maintain contact with central headquarters by relying on just one battered radio . On this occasion though , people had no way to deal with the communication failure .
+# ::alignments 0-1.2 1-1.2 4-1.2.1.1 5-1.2.1.1.1.r 6-1.2.1.1.1 7-1.2.1.4 8-1.2.1 10-1.2.1.2.1 11-1.2.1.2 12-1.2.1.3.r 14-1.2.1.3 18-1.1.2 20-1.1.1.1.1.2.1 21-1.1.1.1.1.2.2 22-1.1.1.1 24-1.1 26-1.1.1 27-1.1.1.2 28-1.1.1.2.2.r 29-1.1.1.2.2.1 30-1.1.1.2.2 31-1.1.1.3.r 32-1.1.1.3 33-1.1.1.3.2.r 34-1.1.1.3.2.2 35-1.1.1.3.2.2.1 36-1.1.1.3.2.1 37-1.1.1.3.2 40-1.3.1.4.2 41-1.3.1.4 41-1.3.1.4.1 41-1.3.1.4.1.r 42-1.3 44-1.3.1.2 45-1.3.1 46-1.3.1.1 46-1.3.1.1.r 47-1.3.1.3 47-1.3.1.3.1.r 49-1.3.1.3.1 50-1.3.1.3.1.1.r 52-1.3.1.3.1.1.1 53-1.3.1.3.1.1
+(m / multi-sentence 
+      :snt2 (p2 / possible-01~e.24 
+            :ARG1 (m2 / maintain-01~e.26 
+                  :ARG0 (r / regiment~e.22 
+                        :part-of (m3 / military :wiki "People's_Liberation_Army" 
+                              :name (n / name :op1 "Red"~e.20 :op2 "Army"~e.21))) 
+                  :ARG1 (c3 / contact-01~e.27 
+                        :ARG0 r 
+                        :ARG1~e.28 (h / headquarters~e.30 
+                              :mod (c4 / central~e.29) 
+                              :part-of m3)) 
+                  :manner~e.31 (r2 / rely-01~e.32 
+                        :ARG0 r 
+                        :ARG1~e.33 (r3 / radio~e.37 
+                              :ARG1-of (b3 / batter-01~e.36) 
+                              :quant (j / just~e.34 :op1 1~e.35)))) 
+            :time (p3 / past~e.18)) 
+      :snt1 (a2 / and~e.0,1 
+            :op2 (b / bring-01~e.8 
+                  :ARG0 (b2 / break-down-12~e.4 
+                        :ARG1~e.5 (c2 / communicate-01~e.6)) 
+                  :ARG1 (p / problem~e.11 
+                        :ARG1-of (s2 / serious-02~e.10)) 
+                  :ARG2~e.12 (s / surface~e.14) 
+                  :mod (a / also~e.7))) 
+      :snt3 (h3 / have-concession-91~e.42 
+            :ARG1 (h2 / have-03~e.45 :polarity~e.46 -~e.46 
+                  :ARG0 (p4 / person~e.44) 
+                  :ARG1 (w / way~e.47 
+                        :manner-of~e.47 (d / deal-01~e.49 
+                              :ARG2~e.50 (f / fail-01~e.53 
+                                    :ARG0 (c5 / communicate-01~e.52)))) 
+                  :time (t2 / thing~e.41 
+                        :ARG1-of~e.41 (o / occasion-02~e.41) 
+                        :mod (t / this~e.40)))))
+
+# ::id bolt12_10465_5592.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok It is clear that preparations prior to the event were not constructed on the basis of an earthquake disaster simulation .
+# ::alignments 2-1 3-1.1.r 4-1.1.2 4-1.1.2.1 4-1.1.2.1.r 5-1.1.2.1.1 6-1.1.2.1.1 8-1.1.2.1.1.1 10-1.1.1 10-1.1.1.r 11-1.1 12-1.1.2.2.r 14-1.1.2.2 15-1.1.2.2.1.r 17-1.1.2.2.1.1.1 18-1.1.2.2.1.1 19-1.1.2.2.1
+(c / clear-06~e.2 
+      :ARG1~e.3 (c2 / construct-01~e.11 :polarity~e.10 -~e.10 
+            :ARG1 (t / thing~e.4 
+                  :ARG1-of~e.4 (p / prepare-01~e.4 
+                        :time (p2 / prior-to~e.5,6 
+                              :op1 (e2 / event~e.8))) 
+                  :ARG1-of~e.12 (b / base-02~e.14 
+                        :ARG2~e.15 (s / simulate-01~e.19 
+                              :ARG1 (d / disaster~e.18 
+                                    :mod (e / earthquake~e.17)))))))
+
+# ::id bolt12_10474_1421.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok While it should have been a disaster relief command that takes overall leadership , it has suddenly come face @-@ to @-@ face with the broad base of disaster victims , directly dealing with them .
+# ::alignments 0-1 1-1.1.1.1 2-1.2 6-1.2.1.1.1 7-1.2.1.1 8-1.2.1 10-1.2.1.2 11-1.2.1.2.1 12-1.2.1.2 14-1.1.1.1 16-1.1.1.3 16-1.1.1.3.r 18-1.1.1 22-1.1.1 23-1.1.1.2.r 25-1.1.1.2.2.1 26-1.1.1.2.2 28-1.1.1.2.1 29-1.1.1.2 31-1.1.2.3 32-1.1.2
+(c / contrast-01~e.0 
+      :ARG1 (a / and 
+            :op1 (f2 / face-01~e.18,22 
+                  :ARG0 (i / it~e.1,14) 
+                  :ARG1~e.23 (v / victim~e.29 
+                        :mod (d4 / disaster~e.28) 
+                        :mod (b2 / base~e.26 
+                              :ARG1-of (b / broad-02~e.25))) 
+                  :manner~e.16 (s / sudden~e.16)) 
+            :op2 (d / deal-01~e.32 
+                  :ARG0 i 
+                  :ARG2 v 
+                  :ARG1-of (d3 / direct-02~e.31))) 
+      :ARG2 (r2 / recommend-01~e.2 
+            :ARG1 (c4 / command-02~e.8 
+                  :ARG1 (r / relieve-01~e.7 
+                        :ARG1 (d2 / disaster~e.6)) 
+                  :ARG0-of (l / lead-02~e.10,12 
+                        :mod (o3 / overall~e.11)))))
+
+# ::id bolt12_10474_1421.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok The lack or serious shortage of intermediate layers of Party organizations and units between the two has resulted in its inability to consider major issues with endless minor issues on hand , such that even if it is highly capable , it won't last long , as it will be dragged down by numerous petty things .
+# ::alignments 1-1.1.1 2-1.1 3-1.1.2.3 4-1.1.2 5-1.1.1.2.r 6-1.1.1.2.1 7-1.1.1.2 8-1.1.1.2.2.r 9-1.1.1.2.2.3 10-1.1.1.2.2.1 11-1.1.1.2.2 12-1.1.1.2.2.2 13-1.1.1.1 15-1.1.1.1.1.1 17-1 20-1.2.1 21-1.3 22-1.2.2 23-1.2.2.2.1 24-1.2.2.2 26-1.2.3.1.2 27-1.2.3.1.1 28-1.2.3.1 30-1.2.3.2 33-1.3.1.r 34-1.3.1.4 34-1.3.1.4.1.3 35-1.3.1.4 36-1.3.1.4.1.1 38-1.3.1.4.1.2 39-1.3.1.4.1 41-1.3.1.2 42-1.3.1.1 42-1.3.1.1.r 43-1.3.1 44-1.3.1 44-1.3.1.3 44-1.3.1.3.r 47-1.3.1.5.1.2 50-1.3.1.5.1 51-1.3.1.5.1.3 53-1.3.1.5.1.1.1 54-1.3.1.5.1.1.2 55-1.1.1.1.1 55-1.3.1.5.1.1
+(r / result-01~e.17 
+      :ARG1 (o / or~e.2 
+            :op1 (l / lack-01~e.1 
+                  :ARG0 (b / between~e.13 
+                        :op1 (t / thing~e.55 :quant 2~e.15)) 
+                  :ARG1~e.5 (l2 / layer~e.7 
+                        :mod (i / intermediate~e.6) 
+                        :part-of~e.8 (a / and~e.11 
+                              :op1 (o2 / organization~e.10) 
+                              :op2 (u / unit~e.12) 
+                              :part-of (p3 / party~e.9)))) 
+            :op1 (s / short-06~e.4 
+                  :ARG1 b 
+                  :ARG2 l2 
+                  :ARG1-of (s2 / serious-02~e.3))) 
+      :ARG2 (p / possible-01 :polarity -~e.20 
+            :ARG1 (c / consider-02~e.22 
+                  :ARG0 p3 
+                  :ARG1 (i2 / issue-02~e.24 
+                        :ARG1-of (m / major-02~e.23))) 
+            :condition (h / have-03 
+                  :ARG1 (i3 / issue-02~e.28 
+                        :ARG1-of (m2 / minor-01~e.27) 
+                        :quant (e / endless~e.26)) 
+                  :location (h2 / hand~e.30))) 
+      :ARG0-of (c2 / cause-01~e.21 
+            :ARG1~e.33 (l3 / last-01~e.43,44 :polarity~e.42 -~e.42 
+                  :ARG1 c3~e.41 
+                  :ARG2~e.44 (l4 / long-03~e.44 
+                        :ARG1 c3) 
+                  :concession (e3 / even-if~e.34,35 
+                        :op1 (c3 / capable-01~e.39 
+                              :ARG1 p3~e.36 
+                              :degree (h3 / high~e.38) 
+                              :mod (e2 / even~e.34))) 
+                  :ARG1-of (c4 / cause-01 
+                        :ARG0 (d / drag-01~e.50 
+                              :ARG0 (t2 / thing~e.55 
+                                    :quant (n / numerous~e.53) 
+                                    :mod (p2 / petty~e.54)) 
+                              :ARG1 c3~e.47 
+                              :ARG2 (d2 / down~e.51))))))
+
+# ::id bolt12_10474_1421.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok This would have been unimaginable during the Great Tangshan Earthquake . A time without volunteers or mental workers , such petty things as directly dealing with average people were performed by the most primary Party branches , as well as enterprises and public institutions .
+# ::alignments 0-1.1.2.1 4-1.1.1 4-1.1.2 5-1.1.3.r 7-1.1.3.2.1 8-1.1.3.2.2 9-1.1.3.2.3 12-1.1.3.r 12-1.2.3.r 13-1.1.1 13-1.1.1.r 13-1.2.3.1.1 13-1.2.3.1.1.r 13-1.2.3.2.1 14-1.2.3.1.2 15-1.2.3 16-1.2.3.2.2.1 17-1.2.3.2 17-1.2.3.2.2 17-1.2.3.2.2.r 19-1.2.2.3 20-1.2.2.2 21-1.2.2 22-1.2.2.1.r 22-1.2.3.r 23-1.2.2.1.2 24-1.2.2.1 26-1.2.2.1.1.1 27-1.2.2.1.1 27-1.2.3.1 29-1.2 30-1.2.1.r 32-1.2.1.1.1.1 33-1.2.1.1.1 34-1.2.1.1.2 35-1.2.1.1 37-1.2.1 38-1.2.1 39-1.2.1 40-1.2.1.2 41-1.2.1 42-1.2.1.3.1 43-1.2.1.3
+(m / multi-sentence 
+      :snt1 (p / possible-01 :polarity~e.13 -~e.4,13 
+            :ARG1 (i / imagine-01~e.4 
+                  :ARG1 (t / this~e.0)) 
+            :time~e.5,12 (e / earthquake :wiki "1976_Tangshan_earthquake" 
+                  :name (n / name :op1 "Great"~e.7 :op2 "Tangshan"~e.8 :op3 "Earthquake"~e.9))) 
+      :snt2 (p2 / perform-02~e.29 
+            :ARG0~e.30 (a / and~e.37,38,39,41 
+                  :op1 (b / branch~e.35 
+                        :mod (p3 / primary~e.33 
+                              :degree (m2 / most~e.32)) 
+                        :part-of (p9 / party~e.34)) 
+                  :op2 (e2 / enterprise~e.40) 
+                  :op3 (i2 / institution~e.43 
+                        :ARG1-of (p4 / public-02~e.42))) 
+            :ARG1 (t2 / thing~e.21 
+                  :example~e.22 (d / deal-01~e.24 
+                        :ARG2 (p7 / person~e.27 
+                              :ARG1-of (a2 / average-03~e.26)) 
+                        :ARG1-of (d2 / direct-02~e.23)) 
+                  :mod (p8 / petty~e.20) 
+                  :mod (s / such~e.19)) 
+            :time~e.12,22 (o2 / or~e.15 
+                  :op1 (p5 / person~e.27 :polarity~e.13 -~e.13 
+                        :ARG0-of (v / volunteer-01~e.14)) 
+                  :op2 (p6 / person~e.17 :polarity -~e.13 
+                        :ARG0-of~e.17 (w / work-01~e.17 
+                              :mod (m3 / mental~e.16))))))
+
+# ::id bolt12_10474_1421.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok As soon as the earthquake occurred , grass @-@ root organizations contacted their own people and average people also contacted their own systems or departments , in an interdependent manner .
+# ::alignments 0-1.3.r 1-1.3 2-1.3 2-1.3.r 4-1.3.1 7-1.1.1.1 10-1.1.1 11-1.1 14-1.1.2 14-1.2.1 15-1 16-1.2.1.1 17-1.2.1 18-1.2.3 19-1.2 20-1.2.2.1.1 20-1.2.2.1.1.r 22-1.2.2.1 23-1.2.2 24-1.2.2.2 28-1.4 29-1.4.r
+(a / and~e.15 
+      :op1 (c / contact-01~e.11 
+            :ARG0 (o2 / organization~e.10 
+                  :mod (g / grass-roots~e.7)) 
+            :ARG1 (p / person~e.14 
+                  :ARG0-of (h / have-org-role-91 
+                        :ARG1 o2))) 
+      :op2 (c2 / contact-01~e.19 
+            :ARG0 (p2 / person~e.14,17 
+                  :ARG1-of (a3 / average-03~e.16)) 
+            :ARG1 (o / or~e.23 
+                  :op1 (s / system~e.22 
+                        :poss~e.20 p2~e.20) 
+                  :op2 (d2 / department~e.24 
+                        :poss p2)) 
+            :mod (a5 / also~e.18)) 
+      :time~e.0,2 (a2 / as-soon-as~e.1,2 
+            :op1 (e / earthquake~e.4)) 
+      :manner~e.29 (i / interdependent~e.28))
+
+# ::id bolt12_10474_1421.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Under the centralized leadership of higher @-@ level organizations , everyone acted to make the rescue efforts very outstanding and successful , such that the Great Tangshan Earthquake , which happened just a few years ago , was forgotten all together in the subsequent reform and opening @-@ up .
+# ::alignments 2-1.2.1.3.2 3-1.2.1.3 4-1.2.1.3.1.r 5-1.2.1.3.1.1.1 5-1.2.1.3.1.1.1.1 5-1.2.1.3.1.1.1.1.r 7-1.2.1.3.1.1 8-1.2.1.3.1 10-1.2.1.1 11-1.2.1 13-1.2.1.2 15-1.2.1.2.2.1.1.1 16-1.2.1.2.2.1.1 17-1.2.1.2.2.1.2 18-1.2.1.2.2.1 19-1.2.1.2.2 20-1.2.1.2.2.2 22-1.2.1.2.r 23-1.2.1.2.r 25-1.1.2.1 26-1.1.2.2 27-1.1.2.3 31-1.1.3.2.2 33-1.1.3.2 34-1.1.3.2.1.2 35-1.1.3 35-1.1.3.1 35-1.1.3.1.r 38-1 43-1.1.3.r 43-1.3.3 43-1.3.r 44-1.3.1 45-1.3 46-1.3.2 48-1.3.2
+(f / forget-01~e.38 
+      :ARG1 (e3 / earthquake :wiki "1976_Tangshan_earthquake" 
+            :name (n / name :op1 "Great"~e.25 :op2 "Tangshan"~e.26 :op3 "Earthquake"~e.27) 
+            :time~e.43 (b / before~e.35 
+                  :op1~e.35 (n2 / now~e.35) 
+                  :quant (f2 / few~e.33 
+                        :op1 (t / temporal-quantity :quant 1 
+                              :unit (y / year~e.34)) 
+                        :mod (j / just~e.31)))) 
+      :ARG1-of (c / cause-01 
+            :ARG0 (a / act-02~e.11 
+                  :ARG0 (e / everyone~e.10) 
+                  :purpose~e.22,23 (m / make-02~e.13 
+                        :ARG0 e 
+                        :ARG1 (a2 / and~e.19 
+                              :op1 (o3 / outstanding~e.18 
+                                    :domain (e2 / effort-01~e.16 
+                                          :ARG1 (r2 / rescue-01~e.15)) 
+                                    :degree (v / very~e.17)) 
+                              :op2 (s2 / succeed-01~e.20 
+                                    :ARG0 e2))) 
+                  :manner (l / lead-02~e.3 
+                        :ARG0~e.4 (o / organization~e.8 
+                              :mod (l2 / level~e.7 
+                                    :ARG1-of (h / high-02~e.5 
+                                          :degree~e.5 (m2 / more~e.5)))) 
+                        :ARG1-of (c2 / centralize-01~e.2)))) 
+      :time~e.43 (a3 / and~e.45 
+            :op1 (r / reform-01~e.44) 
+            :op2 (o2 / open-up-03~e.46,48) 
+            :mod (s3 / subsequent~e.43)) 
+      :degree (a5 / altogether))
+
+# ::id bolt12_10474_1421.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok It is obvious that no social or political problems were left then , nor were sequelae that cause headaches to later generations .
+# ::alignments 2-1 4-1.1.1.1.r 5-1.1.1.2.1.1 6-1.1.1.2 7-1.1.1.2.2.1 8-1.1.1.2.1 8-1.1.1.2.2 10-1.1.1 10-1.1.2 11-1.1.3 13-1.1.1.1 13-1.1.2.1 13-1.1.2.1.r 17-1.1.2.2.1 18-1.1.2.2.1.1 19-1.1.2.2.1.1.1.r 20-1.1.2.2.1.1.1.1 20-1.1.2.2.1.1.1.1.1 20-1.1.2.2.1.1.1.1.1.r 21-1.1.2.2.1.1.1
+(o / obvious-01~e.2 
+      :ARG1 (a / and 
+            :op1 (l / leave-17~e.10 :polarity~e.4 -~e.13 
+                  :ARG1 (o2 / or~e.6 
+                        :op1 (p / problem~e.8 
+                              :topic (s2 / society~e.5)) 
+                        :op2 (p3 / problem~e.8 
+                              :topic (p2 / politics~e.7)))) 
+            :op2 (l2 / leave-17~e.10 :polarity~e.13 -~e.13 
+                  :ARG1 (s / sequela 
+                        :ARG0-of (c / cause-01~e.17 
+                              :ARG1 (h / headache~e.18 
+                                    :beneficiary~e.19 (g / generation~e.21 
+                                          :time (l3 / late~e.20 
+                                                :degree~e.20 (m / more~e.20))))))) 
+            :time (t / then~e.11)))
+
+# ::id bolt12_10474_1831.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok During a time of prosperity and happiness , such a big earthquake suddenly struck .
+# ::alignments 0-1.2.r 2-1.2 2-1.2.r 3-1.2.1.r 4-1.2.1 6-1.2.2 8-1.1.1.1 10-1.1.1 11-1.1 12-1.3 12-1.3.r 13-1
+(s / strike-01~e.13 
+      :ARG2 (e / earthquake~e.11 
+            :mod (b / big~e.10 
+                  :mod (s2 / such~e.8))) 
+      :time~e.0,2 (t / time~e.2 
+            :op1~e.3 (p / prosper-01~e.4) 
+            :op2 (h / happiness~e.6)) 
+      :manner~e.12 (s3 / sudden~e.12))
+
+# ::id bolt12_10474_1831.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Many people died , much property was destroyed , it was quite clearly a great disaster .
+# ::alignments 0-1.1.1.1 1-1.1.1 2-1.1 4-1.2.1.1 5-1.2.1 7-1.2 9-1.3.1 10-1.3.1.r 11-1.3.3.1 12-1.3.3 14-1.3.2 15-1.3
+(a / and 
+      :op1 (d / die-01~e.2 
+            :ARG1 (p / person~e.1 
+                  :quant (m / many~e.0))) 
+      :op2 (d2 / destroy-01~e.7 
+            :ARG1 (p2 / property~e.5 
+                  :quant (m2 / much~e.4))) 
+      :op3 (d3 / disaster~e.15 
+            :domain~e.10 (i / it~e.9) 
+            :mod (g / great~e.14) 
+            :ARG1-of (c / clear-06~e.12 
+                  :degree (q / quite~e.11))))
+
+# ::id bolt12_10474_1831.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok But it was not totally without benefits , and I believe that its greatest benefit was that it served to strip off the false benevolence that composed the outer skin of the elitists , the politicians , the capitalists , and exposed once and for all the rotten cannibalistic core within .
+# ::alignments 0-1 1-1.1.1.1 3-1.1.1.3.1 3-1.1.1.3.1.r 4-1.1.1.3 5-1.1.1.3.1 5-1.1.1.3.1.r 6-1.1.1.2 8-1.1 9-1.1.2.1 10-1.1.2 11-1.1.2.2.r 12-1.1.2.2.1 12-1.1.2.2.1.r 13-1.1.2.2.2 13-1.1.2.2.2.1 13-1.1.2.2.2.1.r 14-1.1.1.2 14-1.1.2.2 17-1.1.2.2.3.1.1 18-1.1.2.2.3.1 20-1.1.2.2.3.1.2 23-1.1.2.2.3.1.2.2.1 24-1.1.2.2.3.1.2.2 26-1.1.2.2.3.1.2.2.2 28-1.1.2.2.3.1.2.2.2.1.2 29-1.1.2.2.3.1.2.2.2.1 30-1.1.2.2.3.1.2.2.2.1.1.r 32-1.1.2.2.3.1.2.2.2.1.1.1 35-1.1.2.2.3.1.2.2.2.1.1.2 38-1.1.2.2.3.1.2.2.2.1.1.3 40-1.1.2.2.3 40-1.1.2.2.3.1.2.2.2.1.1 41-1.1.2.2.3.2 42-1.1.2.2.3.2.3 44-1.1.2.2.3.2.3 45-1.1.2.2.3.2.3 48-1.1.2.2.3.2.2.2 49-1.1.2.2.3.2.2
+(c / contrast-01~e.0 
+      :ARG2 (a / and~e.8 
+            :op1 (l / lack-01 
+                  :ARG0 (i / it~e.1) 
+                  :ARG1 (b2 / benefit-01~e.6,14) 
+                  :degree (t / total~e.4 :polarity~e.3,5 -~e.3,5)) 
+            :op2 (b / believe-01~e.10 
+                  :ARG0 (i2 / i~e.9) 
+                  :ARG1~e.11 (b4 / benefit-01~e.14 
+                        :ARG0~e.12 i~e.12 
+                        :mod (g / great~e.13 
+                              :degree~e.13 (m / most~e.13)) 
+                        :manner (a2 / and~e.40 
+                              :op1 (s / serve-01~e.18 
+                                    :ARG0 i~e.17 
+                                    :ARG1 (s2 / strip-01~e.20 
+                                          :ARG0 i 
+                                          :ARG1 (b3 / benevolence~e.24 
+                                                :mod (f / false~e.23) 
+                                                :ARG2-of (c2 / compose-01~e.26 
+                                                      :ARG1 (s3 / skin~e.29 
+                                                            :part-of~e.30 (a3 / and~e.40 
+                                                                  :op1 (e2 / elitist~e.32) 
+                                                                  :op2 (p / politician~e.35) 
+                                                                  :op3 (c3 / capitalist~e.38)) 
+                                                            :mod (o / outer~e.28)))))) 
+                              :op2 (e / expose-01~e.41 
+                                    :ARG0 i 
+                                    :ARG1 (c7 / core~e.49 
+                                          :ARG1-of (r / rot-01) 
+                                          :mod (c6 / cannibal~e.48) 
+                                          :location (i3 / inside 
+                                                :op1 a3)) 
+                                    :manner (o2 / once-and-for-all~e.42,44,45)))))))
+
+# ::id bolt12_10474_1831.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok And an additional benefit was that many people who had been deluded came to their senses .
+# ::alignments 0-1 2-1.1.2 3-1.1 6-1.1.1.1.2 7-1.1.1.1 11-1.1.1.1.1 12-1.1.1 13-1.1.1.2.r 14-1.1.1.2.1 14-1.1.1.2.1.r 15-1.1.1.2
+(a / and~e.0 
+      :op2 (b / benefit-01~e.3 
+            :ARG0 (c / come-04~e.12 
+                  :ARG1 (p / person~e.7 
+                        :ARG1-of (d / delude-01~e.11) 
+                        :quant (m / many~e.6)) 
+                  :ARG2~e.13 (s / sense-01~e.15 
+                        :ARG0~e.14 p~e.14)) 
+            :mod (a2 / additional~e.2)))
+
+# ::id bolt12_10474_1831.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Temporarily laid aside these abstract things and avoided speaking at length , saying only a few details that left the elitists , the politicians and capitalists highly embarrassed .
+# ::alignments 0-1.1.3 1-1.1 2-1.1.2 3-1.1.1.2 4-1.1.1.1 5-1.1.1 6-1 7-1.2 8-1.2.1 9-1.2.1.1.r 10-1.2.1.1 12-1.3 13-1.3.2 15-1.3.1.2 16-1.3.1 20-1.3.1.1.1.1 23-1.3.1.1.1.2 24-1.3.1.1.1 25-1.3.1.1.1.3 26-1.3.1.1.2 27-1.3.1.1
+(a / and~e.6 
+      :op1 (l / lay-01~e.1 
+            :ARG1 (t2 / thing~e.5 
+                  :mod (a4 / abstract~e.4) 
+                  :mod (t4 / this~e.3)) 
+            :ARG2 (a2 / aside~e.2) 
+            :duration (t / temporary~e.0)) 
+      :op2 (a3 / avoid-01~e.7 
+            :ARG1 (s2 / speak-01~e.8 
+                  :ARG1-of~e.9 (l2 / long-03~e.10))) 
+      :op3 (s / say-01~e.12 
+            :ARG1 (d2 / detail~e.16 
+                  :ARG0-of (e / embarrass-01~e.27 
+                        :ARG1 (a5 / and~e.24 
+                              :op1 (e2 / elitist~e.20) 
+                              :op2 (p / politician~e.23) 
+                              :op3 (c / capitalist~e.25)) 
+                        :degree (h / high~e.26)) 
+                  :quant (f / few~e.15)) 
+            :mod (o / only~e.13)))
+
+# ::id bolt12_10474_1831.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok The experts had just finished saying " Sacrificing yourself to help others is a foolish idea ", when the leaders had no choice but to call once again for selfless devotion .
+# ::alignments 1-1.1 1-1.1.1 1-1.1.1.r 2-1.3 3-1.4 4-1 5-1.2 7-1.2.2.1 8-1.2.2.1.1 10-1.2.2.1.3 11-1.2.2.1.3.2 12-1.2.2.1.r 14-1.2.2.2 15-1.2.2 17-1.3.r 17-1.4.r 19-1.3.1 19-1.3.1.1 19-1.3.1.1.r 20-1.3 21-1.3.2.1 21-1.3.2.1.r 22-1.3.2 22-1.3.2.2 22-1.3.2.2.r 23-1.3.3 25-1.3.3.1 26-1.3.3.1.3.1 27-1.3.3.1.3 28-1.3.3.1.2.r 29-1.3.3.1.2.1 30-1.3.3.1.2
+(f / finish-01~e.4 
+      :ARG0 (p / person~e.1 
+            :ARG1-of~e.1 (e / expert-01~e.1)) 
+      :ARG1 (s / say-01~e.5 
+            :ARG0 p 
+            :ARG1 (i / idea~e.15 
+                  :domain~e.12 (s2 / sacrifice-01~e.7 
+                        :ARG0 (y / you~e.8) 
+                        :ARG1 y 
+                        :ARG2 (h2 / help-01~e.10 
+                              :ARG0 y 
+                              :ARG1 (o2 / other~e.11))) 
+                  :mod (f2 / foolish~e.14))) 
+      :time~e.17 (h / have-03~e.2,20 
+            :ARG0 (p2 / person~e.19 
+                  :ARG0-of~e.19 (l / lead-02~e.19)) 
+            :ARG1 (t / thing~e.22 :polarity~e.21 -~e.21 
+                  :ARG1-of~e.22 (c / choose-01~e.22)) 
+            :ARG2-of (e2 / except-01~e.23 
+                  :ARG1 (c2 / call-03~e.25 
+                        :ARG0 p2 
+                        :ARG1~e.28 (d / devote-01~e.30 
+                              :manner (s3 / selfless~e.29)) 
+                        :mod (a / again~e.27 
+                              :mod (o3 / once~e.26))))) 
+      :time~e.17 (j / just~e.3))
+
+# ::id bolt12_10474_1831.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok This was mere chicanery , to the point where before engaging in life @-@ saving , donation to charity , these sorts of behaviors , an idea had to be flashing through people 's minds :
+# ::alignments 0-1.1 1-1.1.r 2-1.2 3-1 5-1.3 9-1.3.1.2 10-1.3.1.2.1 11-1.3.1.2.1.2.r 12-1.3.1.2.1.2.3.1.2 14-1.3.1.2.1.2.3.1 16-1.3.1.2.1.2.3.2 17-1.3.1.2.1.2.3.2.2.r 18-1.3.1.2.1.2.3.2.2 20-1.3.1.2.1.2.2.1 21-1.3.1.2.1.2.2 22-1.3.1.2.1.2.2.r 23-1.3.1.2.1.2 26-1.3.1.1 30-1.3.1 31-1.3.1.3.r 32-1.3.1.3.1 33-1.3.1.3.1.r 34-1.3.1.3
+(c / chicanery~e.3 
+      :domain~e.1 (t / this~e.0) 
+      :mod (m / mere~e.2) 
+      :extent (o / obligate-01~e.5 
+            :ARG2 (f / flash-02~e.30 
+                  :ARG1 (i / idea~e.26) 
+                  :time (b / before~e.9 
+                        :op1 (e / engage-01~e.10 
+                              :ARG0 p 
+                              :ARG2~e.11 (b2 / behave-01~e.23 
+                                    :ARG0 p 
+                                    :mod~e.22 (s / sort~e.21 
+                                          :mod (t3 / this~e.20)) 
+                                    :example (a / and 
+                                          :op1 (s2 / save-02~e.14 
+                                                :ARG0 p 
+                                                :ARG1 (l2 / life~e.12)) 
+                                          :op2 (d2 / donate-01~e.16 
+                                                :ARG0 p 
+                                                :ARG2~e.17 (c2 / charity~e.18)))))) 
+                  :path~e.31 (m2 / mind~e.34 
+                        :poss~e.33 (p / person~e.32)))))
+
+# ::id bolt12_10474_1831.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Am I being foolish in doing this ?
+# ::alignments 0-1.2.r 1-1.2 2-1.2.r 3-1 4-1.3.r 5-1.3 6-1.3.2 7-1.1 7-1.1.r
+(f / foolish~e.3 :mode~e.7 interrogative~e.7 
+      :domain~e.0,2 (i / i~e.1) 
+      :condition~e.4 (d / do-02~e.5 
+            :ARG0 i 
+            :ARG1 (t / this~e.6)))
+
+# ::id bolt12_10474_1831.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok And when people saw on CCTV those private firms manufacturing tents in Jiangsu and Zhejiang working overtime to produce more tents , the first idea that popped to mind I 'm afraid was probably " This time these capitalists have struck it big ! "
+# ::alignments 1-1.1.1.1.2.r 2-1.1.1.1.2.1 3-1.1.1.1.2 4-1.1.1.1.2.3.r 5-1.1.1.1.2.3.2.1 6-1.1.1.1.2.2.1.1 7-1.1.1.1.2.2.1.2 8-1.1.1.1.2.2.1 9-1.1.1.1.2.2.1.3 10-1.1.1.1.2.2.1.3.1 11-1.1.1.1.2.2.1.3.2.r 12-1.1.1.1.2.2.1.3.2.1.2.1 13-1.1.1.1.2.2.1.3.2 14-1.1.1.1.2.2.1.3.2.2.2.1 15-1.1.1.1.2.2 16-1.1.1.1.2.2.3 18-1.1.1.1.2.2.2 19-1.1.1.1.2.2.2.2.1 20-1.1.1.1.2.2.2.2 23-1.1.1.2 23-1.1.1.2.1 23-1.1.1.2.1.r 24-1.1.1 25-1.1.1.1.2.2.1.1 26-1.1.1.1 27-1.1.1.1.1.r 28-1.1.1.1.1 29-1.1.1.2.1 30-1.1.1.3.r 30-1.1.1.r 31-1.1.1.1.3 32-1.1.1.r 33-1.1 35-1.1.1.3.3.1 36-1.1.1.3.3 36-1.1.1.3.3.r 37-1.1.1.3.1.1 38-1.1.1.3.1 40-1.1.1.3 42-1.1.1.3.2
+(a / and 
+      :op2 (p3 / probable~e.33 
+            :domain~e.30,32 (i / idea~e.24 
+                  :ARG1-of (p2 / pop-04~e.26 
+                        :ARG4~e.27 (m2 / mind~e.28) 
+                        :time~e.1 (s2 / see-01~e.3 
+                              :ARG0 (p4 / person~e.2) 
+                              :ARG1 (w / work-01~e.15 
+                                    :ARG0 (f3 / firm~e.8 
+                                          :mod (t4 / that~e.6,25) 
+                                          :ARG1-of (p5 / private-03~e.7) 
+                                          :ARG0-of (m / manufacture-01~e.9 
+                                                :ARG1 (t5 / tent~e.10) 
+                                                :location~e.11 (a3 / and~e.13 
+                                                      :op1 (p6 / province :wiki "Jiangsu" 
+                                                            :name (n2 / name :op1 "Jiangsu"~e.12)) 
+                                                      :op2 (p7 / province :wiki "Zhejiang" 
+                                                            :name (n / name :op1 "Zhejiang"~e.14))))) 
+                                    :ARG1 (p / produce-01~e.18 
+                                          :ARG0 f3 
+                                          :ARG1 (t7 / tent~e.20 
+                                                :quant (m3 / more~e.19))) 
+                                    :mod (o / overtime~e.16)) 
+                              :medium~e.4 (p8 / publication :wiki "China_Central_Television" 
+                                    :name (n3 / name :op1 "CCTV"~e.5))) 
+                        :ARG1-of (f / fear-01~e.31 
+                              :ARG0 i)) 
+                  :ord (o2 / ordinal-entity~e.23 :value~e.23 1~e.23,29) 
+                  :domain~e.30 (s / strike-01~e.40 
+                        :ARG0 (c / capitalist~e.38 
+                              :mod (t / this~e.37)) 
+                        :manner (b / big~e.42) 
+                        :time~e.36 (t2 / time~e.36 
+                              :mod (t3 / this~e.35))))))
+
+# ::id bolt12_10474_1831.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok " Why is it that these capitalists instead of those capitalists get the big order forms , surely there could n't be anything fishy involved ?
+# ::alignments 1-1.1.4 1-1.1.4.1 1-1.1.4.1.r 3-1.1.3.1.2 4-1.1.3.1.1.1 5-1.1.1.1 6-1.1.1 7-1.1.3 8-1.1.3 9-1.1.3.1.1.1 10-1.1.1 10-1.1.3.1.1 11-1.1 11-1.1.3.1 13-1.1.2.2 14-1.1.2.1 15-1.1.2 17-1.2 19-1.2.2 20-1.2.2.1 20-1.2.2.1.r 22-1.2.2.2.1 23-1.2.2.2.1.1 24-1.2.2.2 25-1.2.1 25-1.2.1.r
+(a / and 
+      :op1 (g / get-01~e.11 
+            :ARG0 (c3 / capitalist~e.6,10 
+                  :mod (t / this~e.5)) 
+            :ARG1 (f / form~e.15 
+                  :purpose (o / order-02~e.14) 
+                  :mod (b / big~e.13)) 
+            :ARG1-of (i2 / instead-of-91~e.7,8 
+                  :ARG2 (g2 / get-01~e.11 
+                        :ARG0 (c4 / capitalist~e.10 
+                              :mod (t2 / that~e.4,9)) 
+                        :ARG1 f~e.3)) 
+            :ARG1-of (c / cause-01~e.1 
+                  :ARG0~e.1 (a2 / amr-unknown~e.1))) 
+      :op2 (s / sure-02~e.17 :mode~e.25 interrogative~e.25 
+            :ARG1 (p / possible-01~e.19 :polarity~e.20 -~e.20 
+                  :ARG1 (i / involve-01~e.24 
+                        :ARG1 (a3 / anything~e.22 
+                              :mod (f2 / fishy~e.23))))))
+
+# ::id bolt12_10489_5932.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok During this process , there were again talks about filing a complaint against the Xinghui Travel Agency .
+# ::alignments 0-1.2.r 1-1.2.1 2-1.2 6-1.3 7-1 8-1.1.r 9-1.1 11-1.1.1 14-1.1.2.2.1 15-1.1.2.2.2 16-1.1.2.2.3
+(t / talk-01~e.7 
+      :ARG1~e.8 (f / file-01~e.9 
+            :ARG1 (c / complain-01~e.11) 
+            :ARG3 (c2 / company :wiki - 
+                  :name (n / name :op1 "Xinghui"~e.14 :op2 "Travel"~e.15 :op3 "Agency"~e.16))) 
+      :time~e.0 (p / process-02~e.2 
+            :mod (t2 / this~e.1)) 
+      :mod (a / again~e.6))
+
+# ::id bolt12_10489_5932.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok The reason for filing the complaint is that even if we owed their hourly fees , they still should fulfill their obligation on the contract they signed : driving people from Canberra back to Sydney .
+# ::alignments 1-1 2-1.2.r 3-1.2 5-1.2.2 8-1.1.2 8-1.1.2.1.4 9-1.1.2 10-1.1.2.1.1 11-1.1.2.1 12-1.1.1.1 13-1.1.2.1.2.2 14-1.1.2.1.2 16-1.1.1.1 17-1.1.1.3 18-1.1 19-1.1.1 20-1.1.1.2.1.2 20-1.1.1.2.1.2.r 21-1.1.1.2 21-1.1.1.2.1 21-1.1.1.2.1.r 22-1.1.1.2.1.1.r 24-1.1.1.2.1.1 25-1.1.1.2.1.1.1.1 26-1.1.1.2.1.1.1 28-1.1.1.2.2.1 29-1.1.1.2.2.1.2 30-1.1.1.2.2.1.4.r 31-1.1.1.2.2.1.4.2.1 32-1.1.1.2.2.1.5 33-1.1.1.2.2.1.3.r 34-1.1.1.2.2.1.3.2.1
+(c4 / cause-01~e.1 
+      :ARG0 (r / recommend-01~e.18 
+            :ARG1 (f / fulfill-01~e.19 
+                  :ARG0 (t / they~e.12,16) 
+                  :ARG1 (t2 / thing~e.21 
+                        :ARG2-of~e.21 (o / obligate-01~e.21 
+                              :ARG0~e.22 (c / contract~e.24 
+                                    :ARG1-of (s / sign-02~e.26 
+                                          :ARG0 t~e.25)) 
+                              :ARG1~e.20 t~e.20) 
+                        :ARG1-of (m / mean-01 
+                              :ARG2 (d / drive-01~e.28 
+                                    :ARG0 t 
+                                    :beneficiary (p / person~e.29) 
+                                    :destination~e.33 (c2 / city :wiki "Sydney" 
+                                          :name (n2 / name :op1 "Sydney"~e.34)) 
+                                    :source~e.30 (c3 / city :wiki "Canberra" 
+                                          :name (n / name :op1 "Canberra"~e.31)) 
+                                    :direction (b / back~e.32)))) 
+                  :mod (s2 / still~e.17)) 
+            :concession (e2 / even-if~e.8,9 
+                  :op1 (o2 / owe-01~e.11 
+                        :ARG0 (w / we~e.10) 
+                        :ARG1 (f2 / fee~e.14 
+                              :poss t 
+                              :mod (h / hour~e.13)) 
+                        :ARG2 t 
+                        :mod (e / even~e.8)))) 
+      :ARG1~e.2 (f3 / file-01~e.3 
+            :ARG0 w 
+            :ARG1 (c5 / complain-01~e.5)))
+
+# ::id bolt12_10489_5932.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok As long as we stick to this issue , Xinghui surely has no way of winning the lawsuit if it goes to court .
+# ::alignments 0-1.2 1-1.2 2-1.2 3-1.2.1.1 4-1.2.1 6-1.2.1.2.1 7-1.2.1.2 9-1.1.2.2.1 10-1 11-1.1 12-1.1.1 12-1.1.1.r 13-1.1.3 14-1.1.3.1.r 15-1.1.3.1 17-1.1.3.1.2 18-1.1.4.r 19-1.1.4.1 20-1.1.4 21-1.1.4.2.r 22-1.1.4.2
+(s / sure-02~e.10 
+      :ARG1 (h / have-03~e.11 :polarity~e.12 -~e.12 
+            :ARG0 (c / company :wiki - 
+                  :name (n / name :op1 "Xinghui"~e.9)) 
+            :ARG1 (w2 / way~e.13 
+                  :instrument-of~e.14 (w3 / win-01~e.15 
+                        :ARG0 c 
+                        :ARG2 (s3 / sue-02~e.17))) 
+            :condition~e.18 (g / go-01~e.20 
+                  :ARG1 s3~e.19 
+                  :ARG4~e.21 (c2 / court~e.22))) 
+      :condition (a / as-long-as~e.0,1,2 
+            :op1 (s2 / stick-01~e.4 
+                  :ARG1 (w / we~e.3) 
+                  :ARG2 (i / issue-02~e.7 
+                        :mod (t / this~e.6)))))
+
+# ::id bolt12_10489_5932.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok However , what greatly surprised me was the attitude of the student union in this appeal . They seemed very reluctant to make the contract public .
+# ::alignments 0-1.1 3-1.1.1.3 4-1.1.1 5-1.1.1.2 8-1.1.1.1 9-1.1.1.1.1.r 11-1.1.1.1.1.1 11-1.1.1.1.1.1.1 11-1.1.1.1.1.1.1.r 12-1.1.1.1.1 13-1.1.1.1.2.r 14-1.1.1.1.2.1 15-1.1.1.1.2 17-1.2.1.2 18-1.2 19-1.2.1.1 20-1.2.1 21-1.2.1.3.r 22-1.2.1.3 24-1.2.1.3.2 25-1.2.1.3
+(m / multi-sentence 
+      :snt1 (c / contrast-01~e.0 
+            :ARG2 (s2 / surprise-01~e.4 
+                  :ARG0 (a / attitude~e.8 
+                        :poss~e.9 (u / union~e.12 
+                              :consist-of (p2 / person~e.11 
+                                    :ARG0-of~e.11 (s3 / study-01~e.11))) 
+                        :topic~e.13 (a2 / appeal-01~e.15 
+                              :mod (t2 / this~e.14))) 
+                  :ARG1 (i / i~e.5) 
+                  :degree (g / great~e.3))) 
+      :snt2 (s / seem-01~e.18 
+            :ARG1 (r / reluctant~e.20 
+                  :degree (v / very~e.19) 
+                  :domain (t / they~e.17) 
+                  :topic~e.21 (p3 / publicize-01~e.22,25 
+                        :ARG0 t 
+                        :ARG1 (c2 / contract~e.24)))))
+
+# ::id bolt12_10489_5932.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok They even lied , saying that they and Xinghui initially felt that signing a contract would rather make each other feel like strangers since they were both doing it for the sake of the motherland .
+# ::alignments 0-1.1.1 1-1.1.2 2-1.1 4-1.2 5-1.2.2.r 6-1.2.2.1.1 7-1 7-1.2.2.1 8-1.2.2.1.2.2.1 9-1.2.2.3 10-1.2.2 11-1.2.2.2.r 12-1.2.2.2.1 14-1.2.2.2.1.2 16-1.2.2.2.3 17-1.2.2.2 20-1.2.2.2.2 21-1.2.2.2.2.2 22-1.2.2.2.2.2.2 23-1.2.2.4 24-1.1.1 27-1.2.2.4.1 28-1.2.2.4.1.2 32-1.2.2.4.1.3.r 34-1.2.2.4.1.3
+(a / and~e.7 
+      :op1 (l / lie-08~e.2 
+            :ARG0 (t / they~e.0,24) 
+            :mod (e / even~e.1)) 
+      :op2 (s / say-01~e.4 
+            :ARG0 t 
+            :ARG1~e.5 (f / feel-01~e.10 
+                  :ARG0 (a2 / and~e.7 
+                        :op1 t~e.6 
+                        :op2 (c / company :wiki - 
+                              :name (n / name :op1 "Xinghui"~e.8))) 
+                  :ARG1~e.11 (m / make-02~e.17 
+                        :ARG0 (s3 / sign-02~e.12 
+                              :ARG0 t 
+                              :ARG1 (c3 / contract~e.14) 
+                              :ARG2 c) 
+                        :ARG1 (f2 / feel-01~e.20 
+                              :ARG0 a2 
+                              :ARG1 (r / resemble-01~e.21 
+                                    :ARG1 a2 
+                                    :ARG2 (s2 / stranger~e.22))) 
+                        :mod (r2 / rather~e.16)) 
+                  :time (i / initial~e.9) 
+                  :ARG1-of (c2 / cause-01~e.23 
+                        :ARG0 (d / do-02~e.27 
+                              :ARG0 a2 
+                              :ARG1 (i2 / it~e.28) 
+                              :ARG2~e.32 (m2 / motherland~e.34))))))
+
+# ::id bolt12_10489_5932.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok As you know , this type of logic absolutely won't work in Australia .
+# ::alignments 1-1.1 2-1 4-1.2.2.1.1 5-1.2.2.1 6-1.2.2.1.r 7-1.2.2 8-1.2.4 9-1.2.1 9-1.2.1.r 10-1.2 11-1.2.3.r 12-1.2.3.2.1
+(k / know-01~e.2 
+      :ARG0 (y / you~e.1) 
+      :ARG1 (w / work-09~e.10 :polarity~e.9 -~e.9 
+            :ARG1 (l / logic~e.7 
+                  :mod~e.6 (t / type~e.5 
+                        :mod (t2 / this~e.4))) 
+            :location~e.11 (c / country :wiki "Australia" 
+                  :name (n / name :op1 "Australia"~e.12)) 
+            :degree (a / absolute~e.8)))
+
+# ::id bolt12_10489_5932.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Xinghui accepted this order of ours and deployed all the buses of other travel agencies in Sydney .
+# ::alignments 0-1.1.1.2.1 1-1.1 2-1.1.2.2 3-1.1.2 3-1.1.2.1 3-1.1.2.1.r 4-1.1.2.1.1.r 5-1.1.2.1.1 6-1 7-1.2 8-1.2.2.1 10-1.2.2 11-1.2.2.2.r 12-1.2.2.2.2 13-1.2.2.2.1 14-1.2.2.2 15-1.2.2.2.3.r 16-1.2.2.2.3.2.1
+(a / and~e.6 
+      :op1 (a2 / accept-01~e.1 
+            :ARG0 (c / company :wiki - 
+                  :name (n2 / name :op1 "Xinghui"~e.0)) 
+            :ARG1 (t / thing~e.3 
+                  :ARG1-of~e.3 (o / order-02~e.3 
+                        :ARG0~e.4 (w / we~e.5)) 
+                  :mod (t3 / this~e.2))) 
+      :op2 (d / deploy-01~e.7 
+            :ARG0 c 
+            :ARG1 (b / bus~e.10 
+                  :mod (a3 / all~e.8) 
+                  :poss~e.11 (a4 / agency~e.14 
+                        :mod (t2 / travel-01~e.13) 
+                        :mod (o2 / other~e.12) 
+                        :location~e.15 (c2 / city :wiki "Sydney" 
+                              :name (n / name :op1 "Sydney"~e.16))))))
+
+# ::id bolt12_10489_5932.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Without the guarantee from the contract signed with us , they would surely have been unable to deploy them !
+# ::alignments 0-1.1.1.r 0-1.2.1 0-1.2.1.r 2-1.2 2-1.2.2 2-1.2.2.r 3-1.2.2.1.r 5-1.2.2.1 6-1.2.2.1.1 7-1.2.2.1.1.2.r 8-1.2.2.1.1.2 10-1.1.2.1 12-1 15-1.1 15-1.1.1 15-1.2.1 17-1.1.2 18-1.1.2.1 18-1.1.2.2
+(s / sure-02~e.12 
+      :ARG1 (p / possible-01~e.15 :polarity~e.0 -~e.15 
+            :ARG1 (d / deploy-01~e.17 
+                  :ARG0 (t2 / they~e.10,18) 
+                  :ARG1 (t3 / they~e.18))) 
+      :manner (t / thing~e.2 :polarity~e.0 -~e.0,15 
+            :ARG1-of~e.2 (g / guarantee-01~e.2 
+                  :source~e.3 (c / contract~e.5 
+                        :ARG1-of (s2 / sign-02~e.6 
+                              :ARG0 t2 
+                              :ARG2~e.7 (w / we~e.8))))))
+
+# ::id bolt12_10489_5932.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In addition , there was something else that was very suspicious .
+# ::alignments 0-1 1-1 4-1.1.1.r 5-1.1.1 6-1.1.1.1 8-1.1.1.r 9-1.1.2 10-1.1
+(a / and~e.0,1 
+      :op2 (s / suspicious~e.10 
+            :domain~e.4,8 (s3 / something~e.5 
+                  :mod (e / else~e.6)) 
+            :degree (v / very~e.9)))
+
+# ::id bolt12_10489_5932.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I heard from a friend at the consulate that the government took this matter very seriously and had promptly agreed to allocate funds to compensate the students who had used their own money instead that night .
+# ::alignments 0-1.1 1-1 2-1.3.r 4-1.3.2.2 7-1.3.1.1 8-1.2.2.2.3.3.1.2.1 8-1.2.r 10-1.2.1.1 10-1.2.1.1.1 10-1.2.1.1.1.r 12-1.2.1.2.1 13-1.2.1.2 14-1.2.1.3 15-1.2.1 16-1.2 18-1.2.2.3 18-1.2.2.3.r 19-1.2.2 21-1.2.2.2 22-1.2.2.2.2 22-1.2.2.2.2.1 22-1.2.2.2.2.1.r 23-1.2.2.2.2.1.2.r 24-1.2.2.2.2.1.2 25-1.2.2.2.2.1.2 26-1.2.2.2.2.1.2 27-1.2.2.2.2.1.2 28-1.2.2.2.2.1.2 29-1.2.2.2.2.1.2 30-1.2.2.2.2.1.2 31-1.2.2.2.2.1.2 32-1.2.2.2.2.1.2 33-1.2.2.2.2.1.2 34-1.2.2.2.2.1.2 35-1.2.2.2.2.1.2
+(h / hear-01~e.1 
+      :ARG0 (i / i~e.0) 
+      :ARG1~e.8 (a / and~e.16 
+            :op1 (s2 / serious-01~e.15 
+                  :ARG1 (g2 / government-organization~e.10 
+                        :ARG0-of~e.10 (g / govern-01~e.10)) 
+                  :ARG2 (m / matter~e.13 
+                        :mod (t2 / this~e.12)) 
+                  :degree (v2 / very~e.14)) 
+            :op2 (a2 / agree-01~e.19 
+                  :ARG0 g2 
+                  :ARG1 (a3 / allocate-01~e.21 
+                        :ARG0 g2 
+                        :ARG1 (t / thing~e.22 
+                              :ARG2-of~e.22 (f2 / fund-01~e.22 
+                                    :ARG0 g2 
+                                    :ARG1~e.23 c2~e.24,25,26,27,28,29,30,31,32,33,34,35)) 
+                        :ARG2 (c2 / compensate-01 
+                              :ARG0 g2 
+                              :ARG1 m2 
+                              :ARG2 (p2 / person 
+                                    :ARG0-of (u / use-01 
+                                          :ARG1 (m2 / money 
+                                                :poss p2) 
+                                          :time (d / date-entity 
+                                                :mod (t3 / that~e.8) 
+                                                :dayperiod (n / night)) 
+                                          :ARG1-of (i3 / instead-of-91)) 
+                                    :ARG0-of (s / study-01)))) 
+                  :manner~e.18 (p / prompt~e.18))) 
+      :ARG2~e.2 (p3 / person 
+            :ARG0-of (h2 / have-org-role-91 
+                  :ARG1 (c / consulate~e.7)) 
+            :ARG0-of (h3 / have-rel-role-91 
+                  :ARG1 i 
+                  :ARG2 (f / friend~e.4))))
+
+# ::id bolt12_10489_6271.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Yesterday afternoon I went back to check out the torch relay , but even the flame was practically impossible to see , let alone the guys carrying the torch .
+# ::alignments 0-1.1.3.2 1-1.1.3.1 2-1.1.1 3-1.1 4-1.1 5-1.1.2.r 6-1.1.2 7-1.1.2 9-1.1.2.2.1 10-1.1.2.2 12-1 13-1.2.2.1.1.1 15-1.2.2.1.1 17-1.2.3 18-1.2 18-1.2.1 18-1.2.1.r 20-1.2.2 22-1.2.2.1.2.1 23-1.2.2.1.2.1 25-1.2.2.1.2 26-1.2.2.1.2.2 28-1.2.2.1.2.2.1
+(c / contrast-01~e.12 
+      :ARG1 (g / go-back-19~e.3,4 
+            :ARG1 (i / i~e.2) 
+            :purpose~e.5 (c2 / check-out-05~e.6,7 
+                  :ARG0 i 
+                  :ARG1 (r / relay-02~e.10 
+                        :ARG2 (t / torch~e.9))) 
+            :time (d / date-entity 
+                  :dayperiod (a2 / afternoon~e.1) 
+                  :mod (y / yesterday~e.0))) 
+      :ARG2 (p / possible-01~e.18 :polarity~e.18 -~e.18 
+            :ARG1 (s / see-01~e.20 
+                  :ARG1 (a / and 
+                        :op1 (f / flame~e.15 
+                              :mod (e / even~e.13)) 
+                        :op2 (g2 / guy~e.25 
+                              :mod (l / let-alone~e.22,23) 
+                              :ARG0-of (c3 / carry-01~e.26 
+                                    :ARG1 t~e.28)))) 
+            :mod (p2 / practical~e.17)))
+
+# ::id bolt12_10489_6271.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok There were so many people there it was frightening . Some had even climbed onto the roofs of buses !
+# ::alignments 0-1.1.2 1-1.1 2-1.1.1.1.1 2-1.1.3 3-1.1.1.1 4-1.1.1 4-1.2.1 5-1.1.2 7-1.1 8-1.1.3.1 10-1.2.1.1 12-1.2.3 13-1.2 14-1.2.2 16-1.2.2.1 17-1.2.2.1.1.r 18-1.2.2.1.1
+(m / multi-sentence 
+      :snt1 (b / be-located-at-91~e.1,7 
+            :ARG1 (p / person~e.4 
+                  :quant (m2 / many~e.3 
+                        :degree (s2 / so~e.2))) 
+            :ARG2 (t / there~e.0,5) 
+            :ARG0-of (c2 / cause-01~e.2 
+                  :ARG1 (f / frighten-01~e.8))) 
+      :snt2 (c / climb-01~e.13 
+            :ARG0 (p2 / person~e.4 
+                  :quant (s / some~e.10)) 
+            :ARG1 (o / onto~e.14 
+                  :op1 (r2 / roof~e.16 
+                        :part-of~e.17 (b2 / bus-01~e.18))) 
+            :mod (e / even~e.12)))
+
+# ::id bolt12_10489_6271.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I headed straight for the center of activities , but in actual fact traffic was being controlled as early as 4 o'clock , and they had already started limiting the crowds entering the sports center .
+# ::alignments 0-1.1.1 1-1.1 2-1.1.3 3-1.1.2.r 5-1.1.2 6-1.1.2.1.r 7-1.1.2.1 9-1 10-1.2.1.2 11-1.2.1.2.1 12-1.2.1.2 13-1.2.1.1 16-1.2.1 17-1.2.1.3.r 18-1.2.1.3.2 19-1.2.1.3.1.r 20-1.2.1.3.1 21-1.2.1.3.1.r 23-1.2 24-1.2.2.1 26-1.2.2.3 27-1.2.2 28-1.2.2.2 30-1.2.2.2.1 31-1.2.2.2.1.1 33-1.2.2.2.1.1.1.1 34-1.2.2.2.1.1.1
+(c / contrast-01~e.9 
+      :ARG1 (h / head-02~e.1 
+            :ARG0 (i / i~e.0) 
+            :ARG1~e.3 (c6 / center~e.5 
+                  :mod~e.6 (a2 / activity-06~e.7)) 
+            :ARG1-of (s2 / straight-04~e.2)) 
+      :ARG2 (a / and~e.23 
+            :op1 (c2 / control-01~e.16 
+                  :ARG1 (t / traffic~e.13) 
+                  :mod (i2 / in-fact~e.10,12 
+                        :ARG1-of (a3 / actual-02~e.11)) 
+                  :time~e.17 (d / date-entity :time~e.19,21 "4:00"~e.20 
+                        :mod (e / early~e.18))) 
+            :op2 (s / start-01~e.27 
+                  :ARG0 (t2 / they~e.24) 
+                  :ARG1 (l2 / limit-01~e.28 
+                        :ARG1 (c4 / crowd~e.30 
+                              :ARG0-of (e2 / enter-01~e.31 
+                                    :ARG1 (c5 / center~e.34 
+                                          :mod (s3 / sport~e.33))))) 
+                  :time (a4 / already~e.26))))
+
+# ::id bolt12_10489_6271.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Some guys were really insane , banding together in groups and yelling out " Go China ! "
+# ::alignments 0-1.1.1 1-1.1 2-1.1.r 3-1.2 4-1 6-1.3.1.1 7-1.3.1.1.2 8-1.3.1.1.3.r 9-1.3.1.1.3 10-1.3.1 11-1.3.1.2 14-1.3.1.2.2 15-1.3.1.2.2.1.2.1
+(i / insane~e.4 
+      :domain~e.2 (g / guy~e.1 
+            :quant (s / some~e.0)) 
+      :degree (r / really~e.3) 
+      :ARG1-of (m / mean-01 
+            :ARG2 (a / and~e.10 
+                  :op1 (b / band-01~e.6 
+                        :ARG1 g 
+                        :ARG3 (t / together~e.7) 
+                        :prep-in~e.8 (g4 / group~e.9)) 
+                  :op2 (y / yell-01~e.11 
+                        :ARG0 g 
+                        :ARG1 (g2 / go-01~e.14 
+                              :ARG1 (c / country :wiki "China" 
+                                    :name (n / name :op1 "China"~e.15)))))))
+
+# ::id bolt12_10489_6271.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I actually had some other classmates there , and was going to call them .
+# ::alignments 0-1.1.1 1-1.1.3 2-1.1 3-1.1.2.1 4-1.1.2.2 5-1.1.2 6-1.1.2.3 8-1 12-1.2
+(a / and~e.8 
+      :op1 (h / have-03~e.2 
+            :ARG0 (i / i~e.0) 
+            :ARG1 (c2 / classmate~e.5 
+                  :quant (s / some~e.3) 
+                  :mod (o / other~e.4) 
+                  :location (t / there~e.6)) 
+            :ARG1-of (a2 / actual-02~e.1)) 
+      :op2 (c / call-02~e.12 
+            :ARG0 i 
+            :ARG1 c2))
+
+# ::id bolt12_10489_6271.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I guessed the carrying capacity of the base station towers was totally overloaded , and I could n't get through at all . I was only able to find a signal , not a chance of connecting to the Internet .
+# ::alignments 0-1.1.1.1 1-1.1.1 3-1.1.1.2.1.1 4-1.1.1.2.1 5-1.1.1.2.1.2.r 7-1.1.1.2.1.2.1.1 8-1.1.1.2.1.2.1 9-1.1.1.2.1.2 11-1.1.1.2.2 12-1.1.1.2 15-1.1.1.1 16-1.2.1 17-1.1.2.1 17-1.1.2.1.r 18-1.1.2 19-1.1.2 20-1.1.2.3 21-1.1.2.3 23-1.2.1.1.1 25-1.2.1.2 26-1.2.1 28-1.2.1.1 30-1.2.1.1.2 32-1.2.2.1 32-1.2.2.1.r 34-1.2.2 35-1.2.2.2.r 36-1.2.2.2 37-1.2.2.2.2.r 39-1.2.2.2.2
+(m / multi-sentence 
+      :snt1 (a / and 
+            :op1 (g / guess-01~e.1 
+                  :ARG0 (i / i~e.0,15) 
+                  :ARG1 (o / overload-01~e.12 
+                        :ARG1 (c / capacity~e.4 
+                              :mod (c2 / carry-01~e.3) 
+                              :poss~e.5 (t2 / tower~e.9 
+                                    :part-of (s / station~e.8 
+                                          :mod (b / base~e.7)))) 
+                        :degree (t / total~e.11))) 
+            :op2 (g2 / get-through-12~e.18,19 :polarity~e.17 -~e.17 
+                  :ARG0 i 
+                  :degree (a2 / at-all~e.20,21))) 
+      :snt2 (c3 / contrast-01 
+            :ARG1 (p / possible-01~e.16,26 
+                  :ARG1 (f / find-01~e.28 
+                        :ARG0 (i3 / i~e.23) 
+                        :ARG1 (s2 / signal~e.30)) 
+                  :mod (o2 / only~e.25)) 
+            :ARG2 (c4 / chance-02~e.34 :polarity~e.32 -~e.32 
+                  :ARG1~e.35 (c5 / connect-01~e.36 
+                        :ARG0 i3 
+                        :ARG2~e.37 (i2 / internet~e.39)))))
+
+# ::id bolt12_10489_6271.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Only one phone call I made there got through - that was calling home .
+# ::alignments 0-1.1.3 1-1.1.3.1 2-1.1.2 3-1.1 4-1.1.1 5-1.1 5-1.1.5.1 6-1.1.4 7-1 8-1 12-1.1.5.1 13-1.1.5.1.2
+(g / get-through-12~e.7,8 
+      :ARG0 (c / call-02~e.3,5 
+            :ARG0 (i / i~e.4) 
+            :medium (p / phone~e.2) 
+            :quant (o / only~e.0 :op1 1~e.1) 
+            :location (t / there~e.6) 
+            :ARG1-of (m / mean-01 
+                  :ARG2 (c2 / call-02~e.5,12 
+                        :ARG0 i 
+                        :ARG1 (h / home~e.13)))))
+
+# ::id bolt12_10489_6271.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I had a look at my call register , and out of dozens of calls dialed only one was properly connected !
+# ::alignments 0-1.1.1 1-1.1 3-1.1 4-1.1.2.r 5-1.1.2.1.1 5-1.1.2.1.1.r 6-1.1.2.1 7-1.1.2 9-1 12-1.2.1.2.1.1 12-1.2.1.2.1.1.1 12-1.2.1.2.1.1.1.r 13-1.2.1.2.1.1.r 14-1.2.1 14-1.2.1.2.1 15-1.2.1.2.1.2 16-1.2.1.1 17-1.2.1.1.1 19-1.2.2 19-1.2.2.r 20-1.2
+(a / and~e.9 
+      :op1 (l / look-01~e.1,3 
+            :ARG0 (i / i~e.0) 
+            :ARG1~e.4 (r / register-02~e.7 
+                  :ARG1 (c2 / call-02~e.6 
+                        :ARG0~e.5 i~e.5))) 
+      :op2 (c / connect-01~e.20 
+            :ARG1 (c3 / call-02~e.14 
+                  :quant (o / only~e.16 :op1 1~e.17) 
+                  :ARG1-of (i2 / include-91 
+                        :ARG2 (c4 / call-02~e.14 
+                              :quant~e.13 (m / multiple~e.12 :op1~e.12 12~e.12) 
+                              :ARG1-of (d3 / dial-01~e.15)))) 
+            :manner~e.19 (p / proper~e.19)))
+
+# ::id bolt12_10489_6271.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Sometime after 6 I went straight back home to watch it on TV . The spectacle was just as astonishing on TV , except that it was just one angle of the whole thing .
+# ::alignments 0-1.1.5 1-1.1.5.1 2-1.1.5.1.1.1 3-1.2.3.1.2.1 4-1.1 5-1.1.3 6-1.1 7-1.1.2 9-1.1.4 10-1.1.4.2 11-1.1.4.3.r 12-1.1.4.3 15-1.2.1 16-1.2.3.1.1.r 17-1.2.3.1.2 18-1.1.5.1.1.1.r 18-1.1.5.r 19-1.2 20-1.2.1.1.r 21-1.2.1.1 23-1.2.3 25-1.2.3.1.1 26-1.2.3.1.1.r 27-1.2.3.1.2 28-1.2.3.1.2.1 29-1.2.3.1 30-1.2.3.1.3.r 32-1.2.3.1.3.1 33-1.2.3.1.3
+(m / multi-sentence 
+      :snt1 (g / go-back-19~e.4,6 
+            :ARG1 i 
+            :ARG2 (h / home~e.7) 
+            :ARG1-of (s / straight-04~e.5) 
+            :purpose (w / watch-01~e.9 
+                  :ARG0 i 
+                  :ARG1 (i2 / it~e.10) 
+                  :medium~e.11 (t / television~e.12)) 
+            :time~e.18 (s4 / sometime~e.0 
+                  :op1 (a3 / after~e.1 
+                        :op1 (d / date-entity :time~e.18 "6:00"~e.2)))) 
+      :snt2 (a / astonish-01~e.19 
+            :ARG0 (s3 / spectacle~e.15 
+                  :medium~e.20 (t3 / television~e.21)) 
+            :ARG1-of (r / resemble-01) 
+            :ARG2-of (e / except-01~e.23 
+                  :ARG1 (a2 / angle~e.29 
+                        :domain~e.16,26 (i / it~e.25) 
+                        :quant (j / just~e.17,27 :op1 1~e.3,28) 
+                        :topic~e.30 (t2 / thing~e.33 
+                              :extent (w2 / whole~e.32))))))
+
+# ::id bolt12_10489_6271.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Next time I won't be partaking in this kind of activity ! !
+# ::alignments 0-1.4.1 1-1.4 1-1.4.r 2-1.2 3-1.1 3-1.1.r 5-1 6-1.3.r 7-1.3.1.1 8-1.3.1 10-1.3
+(p / partake-01~e.5 :polarity~e.3 -~e.3 
+      :ARG0 (i / i~e.2) 
+      :ARG1~e.6 (a / activity-06~e.10 
+            :mod (k / kind~e.8 
+                  :mod (t2 / this~e.7))) 
+      :time~e.1 (t / time~e.1 
+            :mod (n / next~e.0)))
+
+# ::id bolt12_10494_3592.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Wang Shi 's experience of being under public condemnation underscored to a certain extent the tense relationship between the rich and poor classes in Chinese society ;
+# ::alignments 0-1.1.1.2.1 1-1.1.1.2.2 2-1.1 3-1.1 7-1.1.2.1 8-1.1.2 9-1 10-1.3.r 12-1.3.1 13-1.3 15-1.2.3 16-1.2 19-1.2.1.1 21-1.2.2.1 22-1.2.1 22-1.2.2 23-1.2.1.2.r 24-1.2.1.2.1.2.1 25-1.2.1.2
+(u / underscore-01~e.9 
+      :ARG0 (e / experience-01~e.2,3 
+            :ARG0 (p / person :wiki "Wang_Shi_(entrepreneur)" 
+                  :name (n / name :op1 "Wang"~e.0 :op2 "Shi"~e.1)) 
+            :ARG1 (c / condemn-01~e.8 
+                  :ARG0 (p2 / public~e.7) 
+                  :ARG1 p)) 
+      :ARG1 (r / relation-03~e.16 
+            :ARG0 (c3 / class~e.22 
+                  :mod (r2 / rich~e.19) 
+                  :part-of~e.23 (s / society~e.25 
+                        :mod (c5 / country :wiki "China" 
+                              :name (n2 / name :op1 "China"~e.24)))) 
+            :ARG2 (c4 / class~e.22 
+                  :mod (p3 / poor~e.21) 
+                  :part-of s) 
+            :ARG1-of (t / tense-03~e.15)) 
+      :degree~e.10 (e2 / extent~e.13 
+            :mod (c2 / certain~e.12)))
+
+# ::id bolt12_10494_3592.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok because as China grows prosperous day by day , the gap of wealth between the successful elite and the remaining 1.3 billion people is widening .
+# ::alignments 0-1 1-1.1.2.r 2-1.1.2.1.2.1 3-1.1.2 4-1.1.2.2 5-1.1.2.3.1.2 7-1.1.2.3.1.2 10-1.1.1 11-1.1.1.1.r 12-1.1.1.1 13-1.1.1.2 15-1.1.1.2.1.1 16-1.1.1.2.1 17-1.1.1.2 19-1.1.1.2.2.2 20-1.1.1.2.2.1 21-1.1.1.2.2.1 22-1.1.1.2.2 24-1.1
+(c / cause-01~e.0 
+      :ARG0 (w / widen-01~e.24 
+            :ARG1 (g2 / gap~e.10 
+                  :mod~e.11 (w2 / wealth~e.12) 
+                  :mod (b / between~e.13,17 
+                        :op1 (e / elite~e.16 
+                              :ARG0-of (s / succeed-01~e.15)) 
+                        :op2 (p2 / person~e.22 :quant 1300000000~e.20,21 
+                              :ARG1-of (r / remain-01~e.19)))) 
+            :time~e.1 (g / grow-02~e.3 
+                  :ARG1 (c2 / country :wiki "China" 
+                        :name (n / name :op1 "China"~e.2)) 
+                  :ARG2 (p / prosper-01~e.4 
+                        :ARG0 c2) 
+                  :frequency (r2 / rate-entity-91 
+                        :ARG3 (t / temporal-quantity :quant 1 
+                              :unit (d / day~e.5,7))))))
+
+# ::id bolt12_10494_3592.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Thirty years ago , people had basically the same incomes , which were all deplorably meager .
+# ::alignments 0-1.3.2.1 1-1.3.2.2 2-1.2.1.1.1 2-1.3 2-1.3.1 2-1.3.1.r 4-1.1 5-1 6-1.2.1.2 8-1.2.1 9-1.2 9-1.2.1.1 13-1.2.3 15-1.2.2
+(h / have-03~e.5 
+      :ARG0 (p / person~e.4) 
+      :ARG1 (i / income~e.9 
+            :ARG1-of (s / same-01~e.8 
+                  :ARG2 (i2 / income~e.9 
+                        :time (n2 / now~e.2)) 
+                  :mod (b / basic~e.6)) 
+            :mod (m / meager~e.15 
+                  :degree (p2 / possible-01 
+                        :ARG1 (d / deplore-01))) 
+            :mod (a2 / all~e.13)) 
+      :time (b2 / before~e.2 
+            :op1~e.2 (n / now~e.2) 
+            :quant (t / temporal-quantity :quant 30~e.0 
+                  :unit (y / year~e.1))))
+
+# ::id bolt12_10494_3592.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok However , Hurun Report ( Hurun Report ) shows that by 2007 , there were a total of 106 billionaires ( in U.S. dollars ) in China , with the number of people only next to that of the United States .
+# ::alignments 0-1 2-1.1.1.2.1 3-1.1.1.2.2 5-1.1.1.2.1 6-1.1.1.2.2 8-1.1 9-1.1.2.r 10-1.1.2.4 11-1.1.2.4.1.1 16-1.1.2.5 18-1.1.2.1 19-1.1.2 19-1.1.2.6.1.1.1 23-1.1.2.2 25-1.1.2.3.r 26-1.1.2.3.2.1 28-1.1.2.6.r 30-1.1.2.6 30-1.1.2.6.1.1 33-1.1.2.6.1.2 37-1.1.2.2.1.r 39-1.1.2.2.1.2.1 40-1.1.2.2.1.2.2
+(c3 / contrast-01~e.0 
+      :ARG2 (s / show-01~e.8 
+            :ARG0 (p / publication :wiki "Rupert_Hoogewerf" 
+                  :name (n / name :op1 "Hurun"~e.2,5 :op2 "Report"~e.3,6)) 
+            :ARG1~e.9 (b / billionaire~e.19 :quant 106~e.18 
+                  :mod (d2 / dollar~e.23 
+                        :mod~e.37 (c2 / country :wiki "United_States" 
+                              :name (n4 / name :op1 "United"~e.39 :op2 "States"~e.40))) 
+                  :location~e.25 (c / country :wiki "China" 
+                        :name (n5 / name :op1 "China"~e.26)) 
+                  :time (b2 / by~e.10 
+                        :op1 (d / date-entity :year 2007~e.11)) 
+                  :ARG2-of (t / total-01~e.16) 
+                  :quant~e.28 (n2 / number~e.30 
+                        :ARG1-of (e / exceed-01 
+                              :ARG0 (n6 / number~e.30 
+                                    :quant-of (b3 / billionaire~e.19 
+                                          :mod d2 
+                                          :location c2)) 
+                              :mod (o / only~e.33))))))
+
+# ::id bolt12_10494_3592.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Now , Wang Shi said , these responses have had effects on me .
+# ::alignments 0-1.3 2-1.1.2.1 3-1.1.2.2 4-1 6-1.2.1.2 7-1.2.1 7-1.2.1.1 7-1.2.1.1.r 10-1.2 11-1.2.2.r 12-1.2.2
+(s / say-01~e.4 
+      :ARG0 (p / person :wiki "Wang_Shi_(entrepreneur)" 
+            :name (n2 / name :op1 "Wang"~e.2 :op2 "Shi"~e.3)) 
+      :ARG1 (e / effect-03~e.10 
+            :ARG0 (t2 / thing~e.7 
+                  :ARG2-of~e.7 (r / respond-01~e.7) 
+                  :mod (t / this~e.6)) 
+            :ARG1~e.11 p~e.12) 
+      :time (n / now~e.0))
+
+# ::id bolt12_10494_3592.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok He admitted that he was not sensitive enough to the current situation when he wrote his blog .
+# ::alignments 0-1.1 1-1 2-1.2.r 3-1.2.1 5-1.2.4.1 5-1.2.4.1.r 6-1.2 7-1.2.4 8-1.2.2.r 10-1.2.2.1 11-1.2.2 12-1.2.3.r 13-1.2.3.1 14-1.2.3 15-1.2.3.2.1 15-1.2.3.2.1.r 16-1.2.3.2
+(a / admit-01~e.1 
+      :ARG0 (h / he~e.0) 
+      :ARG1~e.2 (s / sensitive-03~e.6 
+            :ARG0 h~e.3 
+            :ARG1~e.8 (s2 / situation~e.11 
+                  :time (c / current~e.10)) 
+            :time~e.12 (w / write-01~e.14 
+                  :ARG0 h~e.13 
+                  :ARG1 (b / blog~e.16 
+                        :poss~e.15 h~e.15)) 
+            :degree (e / enough~e.7 :polarity~e.5 -~e.5)))
+
+# ::id bolt12_10494_3592.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Wang Shi noted additionally that since China currently has not yet established a sound system of social security insurance , the growing hatred of the rich is unavoidable .
+# ::alignments 0-1.1.2.1 1-1.1.2.2 2-1 3-1.3 5-1.2.3 6-1.2.3.1.2.2.1 7-1.2.3.1.5 9-1.2.3.1.1 9-1.2.3.1.1.r 10-1.2.3.1.4 11-1.2.3.1 13-1.2.3.1.3.1 14-1.2.3.1.3 15-1.2.3.1.3.2.r 16-1.2.3.1.3.2.1.1 17-1.2.3.1.3.2.1 18-1.2.3.1.3.2 21-1.2.2.1.2 22-1.2.2.1 23-1.2.2.1.1.r 25-1.2.2.1.1.1 27-1.2.1 27-1.2.3.1.1
+(n / note-01~e.2 
+      :ARG0 (p / person :wiki "Wang_Shi_(entrepreneur)" 
+            :name (n2 / name :op1 "Wang"~e.0 :op2 "Shi"~e.1)) 
+      :ARG1 (p2 / possible-01 :polarity -~e.27 
+            :ARG1 (a / avoid-01 
+                  :ARG1 (h / hate-01~e.22 
+                        :ARG0~e.23 (p3 / person 
+                              :mod (r / rich~e.25)) 
+                        :ARG1-of (g / grow-01~e.21))) 
+            :ARG1-of (c / cause-01~e.5 
+                  :ARG0 (e / establish-01~e.11 :polarity~e.9 -~e.9,27 
+                        :ARG0 (c2 / country :wiki "China" 
+                              :name (n3 / name :op1 "China"~e.6)) 
+                        :ARG1 (s / system~e.14 
+                              :mod (s2 / sound~e.13) 
+                              :purpose~e.15 (i / insure-02~e.18 
+                                    :ARG1 (s3 / security~e.17 
+                                          :mod (s4 / society~e.16)))) 
+                        :time (y / yet~e.10) 
+                        :time (c3 / current~e.7)))) 
+      :mod (a2 / additional~e.3))
+
+# ::id bolt12_10494_3592.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok On Tuesday , Wanke announced that it would make an additional donation of RMB 100 million yuan for the temporary resettlement and post @-@ disaster reconstruction in the next three to five years .
+# ::alignments 1-1.3.1 3-1.1.2.1 4-1 8-1 8-1.2 8-1.2.r 10-1.2.4 11-1.2 12-1.2.2.r 13-1.2.2.2.1 14-1.2.2.1 15-1.2.2.1 16-1.2.2.2 17-1.2.3.r 19-1.2.3.1.1 20-1.2.3.1 21-1.2.3 22-1.2.3.2.1 24-1.2.3.2.1.1 25-1.2.3.2 26-1.2.5.r 28-1.2.5 28-1.2.5.1 28-1.2.5.1.r 29-1.2.5.2.1.1 31-1.2.5.2.2.1 32-1.2.5.2.1.2 32-1.2.5.2.2.2
+(a / announce-01~e.4,8 
+      :ARG0 (c / company :wiki - 
+            :name (n2 / name :op1 "Wanke"~e.3)) 
+      :ARG1~e.8 (d / donate-01~e.8,11 
+            :ARG0 c 
+            :ARG1~e.12 (m / monetary-quantity :quant 100000000~e.14,15 
+                  :unit (y / yuan~e.16 
+                        :mod (r3 / renminbi~e.13))) 
+            :purpose~e.17 (a3 / and~e.21 
+                  :op1 (r / resettle-01~e.20 
+                        :duration (t / temporary~e.19)) 
+                  :op2 (r2 / reconstruct-01~e.25 
+                        :time (a4 / after~e.22 
+                              :op1 (d2 / disaster~e.24)))) 
+            :mod (a2 / additional~e.10) 
+            :time~e.26 (a5 / after~e.28 
+                  :op1~e.28 (n3 / now~e.28) 
+                  :quant (b / between 
+                        :op1 (t3 / temporal-quantity :quant 3~e.29 
+                              :unit (y3 / year~e.32)) 
+                        :op2 (t4 / temporal-quantity :quant 5~e.31 
+                              :unit (y4 / year~e.32))))) 
+      :time (d3 / date-entity 
+            :weekday (t2 / tuesday~e.1)))
+
+# ::id bolt12_10494_3592.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Yao Ming , the basketball player who was hailed as a national hero thanks to his success in establishing himself in NBA , was also blamed after he announced his donation of RMB two million yuan because a rumor on the Internet alleged he had donated one million U.S. dollars for disaster relief of Hurricane Katrina ( Hurricane ) in 2005 .
+# ::alignments 0-1.1.2.1 1-1.1.2.2 4-1.1.3.1 5-1.1 5-1.1.3 5-1.1.3.r 8-1.1.4 9-1.1.4.1.r 9-1.2.r 11-1.1.4.1.1 12-1.1.4.1 14-1.1.4.2 15-1.1.4.2.1.1 15-1.1.4.2.1.1.r 16-1.1.4.2.1 17-1.1.4.2.1.2.3.r 18-1.1.4.2.1.2 20-1.1.4.2.1.2.3.r 21-1.1.4.2.1.2.3.2.1 24-1.1.5 25-1 26-1.2 27-1.2.1.1 28-1.2.1 29-1.2.1.2.1 29-1.2.1.2.1.r 30-1.2.1.2 31-1.2.1.2.2.r 32-1.2.1.2.2.2.1 33-1.2.1.2.2.1 34-1.2.1.2.2.1 35-1.2.1.2.2.2 36-1.3 38-1.3.1.1 39-1.3.1.1.1.r 41-1.3.1.1.1 42-1.3.1 43-1.3.1.2.1 45-1.3.1.2 46-1.3.1.2.2.1 47-1.3.1.2.2.1 48-1.3.1.2.2.2.1.2.1 49-1.3.1.2.2.2 51-1.3.1.2.2.3.1 52-1.3.1.2.2.3 54-1.3.1.2.2.3.1.2.1 55-1.3.1.2.2.3.1.2.2 59-1.1.4.2.1.2.3.r 59-1.3.1.2.3.r 60-1.3.1.2.3.1
+(b / blame-01~e.25 
+      :ARG0 (p / person~e.5 :wiki "Yao_Ming" 
+            :name (n / name :op1 "Yao"~e.0 :op2 "Ming"~e.1) 
+            :ARG0-of~e.5 (p2 / play-01~e.5 
+                  :ARG1 (b2 / basketball~e.4)) 
+            :ARG1-of (h / hail-02~e.8 
+                  :ARG2~e.9 (h2 / hero~e.12 
+                        :mod (n2 / nation~e.11)) 
+                  :ARG1-of (c / cause-01~e.14 
+                        :ARG0 (s / succeed-01~e.16 
+                              :ARG0~e.15 p~e.15 
+                              :ARG1 (e / establish-01~e.18 
+                                    :ARG0 p 
+                                    :ARG1 p 
+                                    :prep-in~e.17,20,59 (l / league :wiki "National_Basketball_Association" 
+                                          :name (n6 / name :op1 "NBA"~e.21)))))) 
+            :mod (a2 / also~e.24)) 
+      :time~e.9 (a / after~e.26 
+            :op1 (a3 / announce-01~e.28 
+                  :ARG0 p~e.27 
+                  :ARG1 (d / donate-01~e.30 
+                        :ARG0~e.29 p~e.29 
+                        :ARG1~e.31 (m / monetary-quantity :quant 2000000~e.33,34 
+                              :unit (y / yuan~e.35 
+                                    :mod (r3 / renminbi~e.32)))))) 
+      :ARG1-of (c2 / cause-01~e.36 
+            :ARG0 (a4 / allege-01~e.42 
+                  :ARG0 (r / rumor-01~e.38 
+                        :medium~e.39 (i / internet~e.41)) 
+                  :ARG1 (d2 / donate-01~e.45 
+                        :ARG0 p~e.43 
+                        :ARG1 (m2 / monetary-quantity :quant 1000000~e.46,47 
+                              :unit (d3 / dollar~e.49 
+                                    :mod (c3 / country :wiki "United_States" 
+                                          :name (n5 / name :op1 "U.S."~e.48))) 
+                              :purpose (r2 / relieve-01~e.52 
+                                    :ARG1 (n3 / natural-disaster~e.51 :wiki "Hurricane_Katrina" 
+                                          :name (n4 / name :op1 "Hurricane"~e.54 :op2 "Katrina"~e.55)))) 
+                        :time~e.59 (d5 / date-entity :year 2005~e.60)))))
+
+# ::id bolt12_10494_4343.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Even so , donation behavior and the treatment of donation behavior should not deviate from two principles , namely that it is voluntary and does not seek return . Otherwise , the donation loses its original meaning .
+# ::alignments 3-1.1.1.1.2.2.1 4-1.1.1.1.2.2.1 5-1.1.1.1.2 7-1.1.1.1.2.2 9-1.1.1.1.2.2.1 10-1.1.1.1.2.2.1 11-1.1.1 12-1.1.1.1.1 12-1.1.1.1.1.r 13-1.1.1.1 14-1.1.1.1.3.r 15-1.1.1.1.3.1 16-1.1.1.1.3 18-1.1.1.1.3.2 20-1.1.1.1.3.2.1.1.1 22-1.1.1.1.3.2.1.1 23-1.1.1.1.3.2.1 25-1.1.1.1.3.2.1.2.1 25-1.1.1.1.3.2.1.2.1.r 26-1.1.1.1.3.2.1.2 27-1.1.1.1.3.2.1.2.3 32-1.2.1.1 33-1.2.1 35-1.2.1.2.2 36-1.2.1.2.1
+(m / multi-sentence 
+      :snt1 (h / have-concession-91 
+            :ARG1 (r / recommend-01~e.11 
+                  :ARG1 (d / deviate-01~e.13 :polarity~e.12 -~e.12 
+                        :ARG0 (a2 / and~e.5 
+                              :op1 (b / behave-01 
+                                    :mod (d2 / donate-01)) 
+                              :op2 (t / treat-01~e.7 
+                                    :ARG1 b~e.3,4,9,10)) 
+                        :ARG1~e.14 (p / principle~e.16 :quant 2~e.15 
+                              :ARG1-of (m3 / mean-01~e.18 
+                                    :ARG2 (a / and~e.23 
+                                          :op1 (v / voluntary-02~e.22 
+                                                :ARG1 b~e.20) 
+                                          :op2 (s / seek-01~e.26 :polarity~e.25 -~e.25 
+                                                :ARG0 b 
+                                                :ARG1 (r2 / return-02~e.27)))))))) 
+      :snt2 (h2 / have-condition-91 
+            :ARG1 (l / lose-02~e.33 
+                  :ARG0 (d4 / donate-01~e.32) 
+                  :ARG1 (t2 / thing 
+                        :ARG2-of (m2 / mean-01~e.36 
+                              :ARG1 d4) 
+                        :mod (o / original~e.35)))))
+
+# ::id bolt12_10494_4343.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In actual fact , whether it is McDonalds or any other foreign owned enterprises in China on the so @-@ called " international iron rooster " blacklist , they all gave generously to the cause of helping the disaster victims , exhibiting their social responsibility .
+# ::alignments 0-1.5 1-1.5.1 2-1.5 8-1.1.2.1 9-1.1.2.1.2.2.1 10-1.1.2.1.2.2 11-1.1.2.1.2.1.1 12-1.1.2.1.2.1 13-1.1.2.1.2 14-1.1.2.1.2.4.r 14-1.5 15-1.1.2.1.2.4.2.1 16-1.1.2.1.2.3.r 18-1.1.2.1.2.3.1.1.2 20-1.1.2.1.2.3.1.1 22-1.1.2.1.2.3.1.1.1.2 23-1.1.2.1.2.3.1.1.1.1 24-1.1.2.1.2.3.1.1.1 26-1.1.2.1.2.3 28-1.1 29-1.1.1 30-1 31-1.4 32-1.2.r 34-1.2 35-1.2.1.r 36-1.2.1 38-1.2.1.1.1 39-1.2.1.1 41-1.3 42-1.1 43-1.3.2.2 44-1.3.2
+(g / give-01~e.30 
+      :ARG0 (t2 / they~e.28,42 
+            :mod (a / all~e.29) 
+            :ARG2-of (i / include-91 
+                  :ARG1 (o / or~e.8 
+                        :op1 (c4 / company :wiki "McDonald's" 
+                              :name (n3 / name :op1 "McDonald's")) 
+                        :op2 (e3 / enterprise~e.13 
+                              :ARG1-of (o2 / own-01~e.12 
+                                    :mod (f2 / foreign~e.11)) 
+                              :mod (o3 / other~e.10 
+                                    :mod (a3 / any~e.9)) 
+                              :ARG1-of~e.16 (b2 / blacklist-01~e.26 
+                                    :location (t / thing 
+                                          :ARG1-of (c2 / call-01~e.20 
+                                                :ARG2 (r2 / rooster~e.24 
+                                                      :mod (i3 / iron~e.23) 
+                                                      :mod (i4 / international~e.22)) 
+                                                :mod (s2 / so~e.18)))) 
+                              :location~e.14 (c / country :wiki "China" 
+                                    :name (n2 / name :op1 "China"~e.15)))))) 
+      :ARG2~e.32 (c3 / cause~e.34 
+            :topic~e.35 (h / help-01~e.36 
+                  :ARG1 (v / victim~e.39 
+                        :mod (d / disaster~e.38)))) 
+      :instrument-of (e / exhibit-01~e.41 
+            :ARG0 o 
+            :ARG1 (r / responsible-02~e.44 
+                  :ARG1 o 
+                  :mod (s / society~e.43))) 
+      :manner (g2 / generous-01~e.31 
+            :ARG0 o 
+            :ARG1 c3) 
+      :mod (i2 / in-fact~e.0,2,14 
+            :ARG1-of (a2 / actual-02~e.1)))
+
+# ::id bolt12_10494_4343.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Even if by comparison some companies really did n't donate a huge amount , they should not be besieged or subjected to verbal violence in the arena of public opinion .
+# ::alignments 0-1.2 1-1.2 2-1.2.1.r 3-1.2.1.5 4-1.2.1.2.1 5-1.2.1.2 6-1.2.1.4 8-1.2.1.1 8-1.2.1.1.r 9-1.2.1 11-1.2.1.3.1 12-1.2.1.3 15-1 16-1.1.1.1 16-1.1.1.1.r 16-1.1.2.1 16-1.1.2.1.r 18-1.1.1 19-1.1 20-1.1.2 21-1.1.2.3.r 22-1.1.2.3.1 23-1.1.2.3 24-1.1.2.4.r 26-1.1.2.4 27-1.1.2.4.1.r 28-1.1.2.4.1.1 29-1.1.2.4.1
+(r / recommend-01~e.15 
+      :ARG1 (o / or~e.19 
+            :op1 (b / besiege-01~e.18 :polarity~e.16 -~e.16 
+                  :ARG1 c) 
+            :op2 (s / subject-01~e.20 :polarity~e.16 -~e.16 
+                  :ARG1 c 
+                  :ARG2~e.21 (v / violence~e.23 
+                        :mod (v2 / verbal~e.22)) 
+                  :location~e.24 (a2 / arena~e.26 
+                        :mod~e.27 (o2 / opine-01~e.29 
+                              :ARG0 (p / public~e.28))))) 
+      :concession (e / even-if~e.0,1 
+            :op1~e.2 (d / donate-01~e.9 :polarity~e.8 -~e.8 
+                  :ARG0 (c / company~e.5 
+                        :quant (s2 / some~e.4)) 
+                  :ARG2 (a / amount~e.12 
+                        :mod (h / huge~e.11)) 
+                  :ARG1-of (r2 / real-04~e.6) 
+                  :manner (c2 / compare-01~e.3))))
+
+# ::id bolt12_10494_4343.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Donating , after all , is not a legal obligation that companies must carry out . Urging businesses to donate apart from the force of moral considerations should not take the form of any other coercive means .
+# ::alignments 0-1.1.3 2-1.1.5 3-1.1.5 6-1.1.1 6-1.1.1.r 8-1.1.4 9-1.1 11-1.1.2 12-1.1 16-1.2.1.3 17-1.2.1.3.1 19-1.2.1.3.2 23-1.2.1.3.3.1 24-1.2.1.3.3.1.1.r 25-1.2.1.3.3.1.1.1 26-1.2.1.3.3.1.1 27-1.2 28-1.2.1.1 28-1.2.1.1.r 31-1.2.1 32-1.2.1.2.r 33-1.2.1.2.2 34-1.2.1.2.3 35-1.2.1.2.1 36-1.2.1.2
+(m / multi-sentence 
+      :snt1 (o / obligate-01~e.9,12 :polarity~e.6 -~e.6 
+            :ARG1 (c2 / company~e.11) 
+            :ARG2 (d / donate-01~e.0 
+                  :ARG0 c2) 
+            :ARG1-of (l / legal-02~e.8) 
+            :mod (a / after-all~e.2,3)) 
+      :snt2 (r / recommend-01~e.27 
+            :ARG1 (f2 / form-01~e.31 :polarity~e.28 -~e.28 
+                  :ARG1~e.32 (m2 / means~e.36 
+                        :instrument-of (c3 / coerce-01~e.35) 
+                        :mod (a2 / any~e.33) 
+                        :mod (o3 / other~e.34)) 
+                  :ARG2 (u / urge-01~e.16 
+                        :ARG1 (b / business~e.17) 
+                        :ARG2 (d2 / donate-01~e.19 
+                              :ARG0 b) 
+                        :ARG1-of (e2 / except-01 
+                              :ARG2 (f / force-04~e.23 
+                                    :ARG0~e.24 (c4 / consider-02~e.26 
+                                          :ARG1 (m3 / moral-02~e.25))))))))
+
+# ::id bolt12_10494_4343.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok As long as a company 's source of income is legal , any compulsory payment outside of legal obligations is a kind of theft .
+# ::alignments 0-1.3 1-1.3 2-1.3 4-1.3.1.1.1.1 5-1.3.1.1.1.1.r 6-1.3.1.1 6-1.3.1.1.1 6-1.3.1.1.1.r 7-1.3.1.1.1.2.r 8-1.3.1.1.1.2 10-1.3.1 13-1.1.1.2 14-1.1 14-1.1.1 14-1.1.1.r 15-1.1.1.3 16-1.1.1.3.1.r 17-1.1.1.3.1.1.1 18-1.1.1.3.1 18-1.1.1.3.1.1 18-1.1.1.3.1.1.r 21-1.4 23-1
+(s2 / steal-01~e.23 
+      :ARG1 (t4 / thing~e.14 
+            :ARG1-of~e.14 (p / pay-01~e.14 
+                  :ARG0 c 
+                  :ARG2-of (c2 / compel-01~e.13) 
+                  :manner (o / outside~e.15 
+                        :op1~e.16 (t3 / thing~e.18 
+                              :ARG2-of~e.18 (o2 / obligate-01~e.18 
+                                    :ARG0 (l2 / law~e.17) 
+                                    :ARG1 c))))) 
+      :ARG2 c 
+      :condition (a / as-long-as~e.0,1,2 
+            :op1 (l / legal-02~e.10 
+                  :ARG1 (t2 / thing~e.6 
+                        :ARG2-of~e.6 (s / source-01~e.6 
+                              :ARG0~e.5 (c / company~e.4) 
+                              :ARG1~e.7 (i / income~e.8))))) 
+      :mod (k / kind~e.21))
+
+# ::id bolt12_10494_4343.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Even in an abnormal circumstance such as disaster relief , legal order and the rights bestowed upon by law should be respected .
+# ::alignments 3-1.2.1.1 3-1.2.1.1.1 3-1.2.1.1.1.r 4-1.2.1 5-1.2.1.2.r 6-1.2.1.2.r 7-1.2.1.2.1 8-1.2.1.2 10-1.1.1.1.1 11-1.1.1.1 12-1.1.1 14-1.1.1.2 15-1.1.1.2.1 17-1.1.1.2.1.1.r 18-1.1.1.2.1.1 19-1 20-1.2 21-1.1
+(r / recommend-01~e.19 
+      :ARG1 (r2 / respect-01~e.21 
+            :ARG1 (a / and~e.12 
+                  :op1 (o / order~e.11 
+                        :ARG1-of (l2 / legal-02~e.10)) 
+                  :op2 (r3 / right-05~e.14 
+                        :ARG1-of (b / bestow-01~e.15 
+                              :ARG0~e.17 (l / law~e.18))))) 
+      :concession (b2 / be-located-at-91~e.20 
+            :ARG2 (c / circumstance~e.4 
+                  :ARG1-of (n / normal-02~e.3 :polarity~e.3 -~e.3) 
+                  :example~e.5,6 (r4 / relieve-01~e.8 
+                        :ARG1 (d / disaster~e.7)))))
+
+# ::id bolt12_10494_4343.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok If we are unfortunate enough to be unable to avoid becoming a disaster victim , we can at least preserve the nobility and dignity of humanity and not turn into rabble .
+# ::alignments 0-1.2.r 1-1.2.2 3-1.2 3-1.2.1 3-1.2.1.r 4-1.2.4 7-1.2.3 7-1.2.3.1 7-1.2.3.1.r 9-1.2.3.2 10-1.2.3.2.2 12-1.2.3.2.2.2.1 13-1.2.3.2.2.2 15-1.2.2 16-1 17-1.3 18-1.3 19-1.1.1 21-1.1.1.2.1 22-1.1.1.2 23-1.1.1.2.2 25-1.1.1.2.1.1 25-1.1.1.2.2.1 26-1.1 27-1.1.2.1 27-1.1.2.1.r 28-1.1.2 29-1.1.2.3.r 30-1.1.2.3
+(p / possible-01~e.16 
+      :ARG1 (a / and~e.26 
+            :op1 (p2 / preserve-01~e.19 
+                  :ARG0 w 
+                  :ARG1 (a4 / and~e.22 
+                        :op1 (n / nobility~e.21 
+                              :poss (h / humanity~e.25)) 
+                        :op2 (d2 / dignity~e.23 
+                              :poss (h2 / humanity~e.25)))) 
+            :op2 (t / turn-02~e.28 :polarity~e.27 -~e.27 
+                  :ARG1 w 
+                  :ARG2~e.29 (r / rabble~e.30))) 
+      :condition~e.0 (f / fortunate-01~e.3 :polarity~e.3 -~e.3 
+            :ARG1 (w / we~e.1,15) 
+            :ARG2 (p3 / possible-01~e.7 :polarity~e.7 -~e.7 
+                  :ARG1 (a2 / avoid-01~e.9 
+                        :ARG0 w 
+                        :ARG1 (b / become-01~e.10 
+                              :ARG1 w 
+                              :ARG2 (v2 / victim~e.13 
+                                    :mod (d / disaster~e.12))))) 
+            :degree (e / enough~e.4)) 
+      :mod (a3 / at-least~e.17,18))
+
+# ::id bolt12_10495_0392.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok The lawsuit proposed by Hai Ming did not have a clear subject of the right of action ; moreover it did not satisfy the legal requirement for libel .
+# ::alignments 1-1.1.2 2-1.1.2.1 3-1.1.2.1.1.r 4-1.1.2.1.1.2.1 5-1.1.2.1.1.2.2 7-1.1.1 7-1.1.1.r 8-1.1 10-1.1.3.2 11-1.1.3 12-1.1.3.1.r 14-1.1.3.1 15-1.1.3.1.1.r 16-1.1.3.1.1 18-1.2 19-1.2.1.2 21-1.2.1.1 21-1.2.1.1.r 22-1.2.1 24-1.2.1.3.1.2 25-1.2.1.3 25-1.2.1.3.1 25-1.2.1.3.1.r 26-1.2.1.3.1.1.r 27-1.2.1.3.1.1
+(m2 / multi-sentence 
+      :snt1 (h / have-03~e.8 :polarity~e.7 -~e.7 
+            :ARG0 (s3 / sue-02~e.1 
+                  :ARG1-of (p / propose-01~e.2 
+                        :ARG0~e.3 (p2 / person :wiki - 
+                              :name (n / name :op1 "Hai"~e.4 :op2 "Ming"~e.5)))) 
+            :ARG1 (s2 / subject~e.11 
+                  :topic~e.12 (r / right-05~e.14 
+                        :ARG2~e.15 (a2 / act-02~e.16)) 
+                  :ARG1-of (c / clear-06~e.10))) 
+      :snt2 (a / and~e.18 
+            :op2 (s / satisfy-02~e.22 :polarity~e.21 -~e.21 
+                  :ARG0 (i / it~e.19) 
+                  :ARG1 (t / thing~e.25 
+                        :ARG1-of~e.25 (r2 / require-01~e.25 
+                              :purpose~e.26 (l2 / libel-01~e.27) 
+                              :ARG1-of (l / legal-02~e.24))))))
+
+# ::id bolt12_10495_0392.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok For example , he failed to clarify whether Cafferty 's comment was an argument over opinions or an act of spreading an untruthful statement .
+# ::alignments 0-1 1-1 3-1.1.1 4-1.1 6-1.1.2 7-1.1.2.2.1 7-1.1.2.2.1.r 8-1.1.2.2.4.1.2.1 9-1.1.2.2.4.1.r 9-1.1.2.2.4.r 10-1.1.2.2.4 11-1.1.2.2.4.r 13-1.1.2.2.2 15-1.1.2.2.2.1 15-1.1.2.2.2.1.1 15-1.1.2.2.2.1.1.r 16-1.1.2.2 19-1.1.2.2.r 20-1.1.2.2.3 22-1.1.2.2.3.1.2 22-1.1.2.2.3.1.2.1 22-1.1.2.2.3.1.2.1.r 23-1.1.2.2.3.1 23-1.1.2.2.3.1.1 23-1.1.2.2.3.1.1.r
+(e / exemplify-01~e.0,1 
+      :ARG0 (f / fail-01~e.4 
+            :ARG0 (h / he~e.3) 
+            :ARG2 (c / clarify-10~e.6 
+                  :ARG0 h 
+                  :ARG1~e.19 (o / or~e.16 :mode~e.7 interrogative~e.7 
+                        :op1 (a / argue-02~e.13 
+                              :ARG2 (t / thing~e.15 
+                                    :ARG1-of~e.15 (o2 / opine-01~e.15))) 
+                        :op2 (s / spread-03~e.20 
+                              :ARG1 (t2 / thing~e.23 
+                                    :ARG1-of~e.23 (s2 / state-01~e.23) 
+                                    :mod (t3 / truthful~e.22 :polarity~e.22 -~e.22))) 
+                        :domain~e.9,11 (c2 / comment-01~e.10 
+                              :ARG0~e.9 (p / person :wiki "Jack_Cafferty" 
+                                    :name (n / name :op1 "Cafferty"~e.8)))))))
+
+# ::id bolt12_10495_0392.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok The malicious intent of Cafferty has not been established , either . More importantly , he has been unable to offer anything as to how to establish the damage to the 1.3 billion Chinese people .
+# ::alignments 1-1.1.2.1.2 2-1.1.2 2-1.1.2.1 2-1.1.2.1.r 4-1.1.2.1.1.2.1 5-1.1.2.1 6-1.1.1 6-1.1.1.r 8-1.1 10-1.1.3 12-1.2.1 13-1.2 15-1.2.2.2.1 17-1.2.2.r 18-1.2.2 18-1.2.2.1 18-1.2.2.1.r 20-1.2.2.2 21-1.2.2.2.2 23-1.2.2.2.2.1.r 24-1.2.2.2.2.1.1.r 26-1.2.2.2.2.1.1 28-1.2.2.2.2.1.1.1 29-1.2.2.2.2.1.1.1.1.r 31-1.2.2.2.2.1.1.1.1.1 32-1.2.2.2.2.1.1.1.1.1 33-1.2.2.2.2.1.1.1.1.2.2.1 34-1.2.2.2.2.1.1.1.1
+(m / multi-sentence 
+      :snt1 (e / establish-01~e.8 :polarity~e.6 -~e.6 
+            :ARG1 (t / thing~e.2 
+                  :ARG1-of~e.2 (i2 / intend-01~e.2,5 
+                        :ARG0 (p2 / person :wiki "Jack_Cafferty" 
+                              :name (n2 / name :op1 "Cafferty"~e.4)) 
+                        :mod (m3 / malice~e.1))) 
+            :mod (e3 / either~e.10)) 
+      :snt2 (i / important~e.13 
+            :degree (m2 / more~e.12) 
+            :domain~e.17 (p / possible-01~e.18 :polarity~e.18 -~e.18 
+                  :ARG1 (o / offer-01~e.20 
+                        :ARG0 (h / he~e.15) 
+                        :ARG1 (a2 / anything~e.21 
+                              :topic~e.23 (t2 / thing 
+                                    :manner-of~e.24 (e2 / establish-01~e.26 
+                                          :ARG1 (d / damage-01~e.28 
+                                                :ARG1~e.29 (p4 / person~e.34 :quant 1300000000~e.31,32 
+                                                      :mod (c / country :wiki "China" 
+                                                            :name (n / name :op1 "China"~e.33)))))))))))
+
+# ::id bolt12_10495_0392.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok In addition , in his complaint , it is said that Chinese people have already expressed their displeasure through demonstrations .
+# ::alignments 0-1 1-1 4-1.1.1.1 4-1.1.1.1.r 5-1.1.1 9-1.1 10-1.1.2.r 11-1.1.2.1.1.2.1 12-1.1.2.1 14-1.1.2.3 15-1.1.2 16-1.1.2.4.1 16-1.1.2.4.1.r 19-1.1.2.4
+(a / and~e.0,1 
+      :op2 (s / say-01~e.9 
+            :ARG0 (c / complain-01~e.5 
+                  :ARG0~e.4 (h / he~e.4)) 
+            :ARG1~e.10 (e / express-01~e.15 
+                  :ARG0 (p2 / person~e.12 
+                        :mod (c2 / country :wiki "China" 
+                              :name (n / name :op1 "China"~e.11))) 
+                  :ARG1 (d2 / displease-01 
+                        :ARG1 p2) 
+                  :time (a2 / already~e.14) 
+                  :manner (d / demonstrate-01~e.19 
+                        :ARG0~e.16 p2~e.16))))
+
+# ::id bolt12_10495_0392.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Here it is a country with the freedom of speech .
+# ::alignments 0-1.2 1-1.3 2-1.3.r 4-1 5-1.1.r 7-1.1 8-1.1.1.r 9-1.1.1
+(c / country~e.4 
+      :ARG1-of~e.5 (f / free-04~e.7 
+            :ARG3~e.8 (s / speak-01~e.9)) 
+      :location (h / here~e.0) 
+      :domain~e.2 (i / it~e.1))
+
+# ::id bolt12_10495_0392.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok On the issue of libel , courts only support those who have actually suffered damages and have no other way to seek justice .
+# ::alignments 2-1.3 3-1.3.1.r 4-1.3.1 6-1.1 7-1.2.3 8-1 11-1.2.1 12-1.2.1.2 13-1.2.1 14-1.2.1.1 16-1.2 16-1.2.2 16-1.2.2.r 17-1.2.2.1 17-1.2.2.1.r 18-1.2.2.2.2 19-1.2.2.2 21-1.2.2.2.1 22-1.2.2.2.1.2
+(s / support-01~e.8 
+      :ARG0 (c / court~e.6) 
+      :ARG1 (p / person~e.16 
+            :ARG0-of (s3 / suffer-01~e.11,13 
+                  :ARG1 (d / damage-01~e.14 
+                        :ARG1 p) 
+                  :ARG1-of (a / actual-02~e.12)) 
+            :ARG0-of~e.16 (h / have-03~e.16 :polarity~e.17 -~e.17 
+                  :ARG1 (w / way~e.19 
+                        :instrument-of (s2 / seek-01~e.21 
+                              :ARG0 p 
+                              :ARG1 (j / justice~e.22)) 
+                        :mod (o2 / other~e.18))) 
+            :mod (o / only~e.7)) 
+      :topic (i / issue-02~e.2 
+            :ARG0~e.3 (l / libel-01~e.4)))
+
+# ::id bolt12_10495_0392.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Therefore , it is very hard for the government , politicians , and public figures to get legal protection on the issue of libel ,
+# ::alignments 0-1 4-1.1.2 5-1.1 6-1.1.1.r 8-1.1.1.1.1 8-1.1.1.1.1.1 8-1.1.1.1.1.1.r 10-1.1.1.1.2 12-1.1.1.1 13-1.1.1.1.3.1 14-1.1.1.1.3 16-1.1.1 17-1.1.1.2.3 18-1.1.1.2 19-1.1.1.2.2.r 21-1.1.1.2.2 22-1.1.1.2.2.1.r 23-1.1.1.2.2.1
+(c / cause-01~e.0 
+      :ARG1 (h / hard-02~e.5 
+            :ARG1~e.6 (g / get-01~e.16 
+                  :ARG0 (a / and~e.12 
+                        :op1 (g2 / government-organization~e.8 
+                              :ARG0-of~e.8 (g3 / govern-01~e.8)) 
+                        :op2 (p2 / politician~e.10) 
+                        :op3 (f / figure~e.14 
+                              :ARG1-of (p3 / public-02~e.13))) 
+                  :ARG1 (p / protect-01~e.18 
+                        :ARG1 a 
+                        :ARG2~e.19 (i / issue-02~e.21 
+                              :ARG0~e.22 (l / libel-01~e.23)) 
+                        :ARG1-of (l2 / legal-02~e.17))) 
+            :degree (v / very~e.4)))
+
+# ::id bolt12_10495_0392.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok because they have the capability to clear themselves of " smears ."
+# ::alignments 0-1 1-1.1.1 4-1.1 6-1.1.2 7-1.1.1 10-1.1.2.3
+(c / cause-01~e.0 
+      :ARG0 (c3 / capable-01~e.4 
+            :ARG1 (t / they~e.1,7) 
+            :ARG2 (c2 / clear-01~e.6 
+                  :ARG0 t 
+                  :ARG1 t 
+                  :ARG2 (s / smear-02~e.10 
+                        :ARG1 t))))
+
+# ::id bolt12_10495_0392.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok If you have already cleared your own reputation through legal protests , for example , Chinese people are not goons and thugs , then a lawsuit is meaningless .
+# ::alignments 0-1.1.3.r 1-1.1.3.1 3-1.1.3.5 4-1.1.3 5-1.1.3.2.1 5-1.1.3.2.1.r 7-1.1.3.2 9-1.1.3.3.2 10-1.1.3.3 12-1.1.3.4 13-1.1.3.4 15-1.2.3.1.2.1 16-1.2.3 17-1.2.3.r 18-1.2.1.1 18-1.2.1.1.r 18-1.2.2.1 18-1.2.2.1.r 19-1.2.1 20-1.2 21-1.2.2 25-1.1.2 27-1.1 27-1.1.1 27-1.1.1.r
+(m2 / multi-sentence 
+      :snt1 (m / mean-01~e.27 :polarity~e.27 -~e.27 
+            :ARG1 (s / sue-02~e.25) 
+            :condition~e.0 (c / clear-01~e.4 
+                  :ARG0 (y / you~e.1) 
+                  :ARG1 (r / reputation~e.7 
+                        :poss~e.5 y~e.5) 
+                  :manner (p / protest-01~e.10 
+                        :ARG0 y 
+                        :ARG1-of (l / legal-02~e.9)) 
+                  :ARG0-of (e2 / exemplify-01~e.12,13) 
+                  :time (a / already~e.3))) 
+      :snt2 (a2 / and~e.20 
+            :op1 (g / goon~e.19 :polarity~e.18 -~e.18) 
+            :op2 (t / thug~e.21 :polarity~e.18 -~e.18) 
+            :domain~e.17 (p2 / person~e.16 
+                  :mod (c2 / country :wiki "China" 
+                        :name (n2 / name :op1 "China"~e.15)))))
+
+# ::id bolt12_10495_0392.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Remember , a lawsuit for libel is only to clear your name and get compensation .
+# ::alignments 0-1 3-1.3.1 4-1.3.1.1.r 5-1.3.1.1 7-1.3.2.3 9-1.3.2.1 10-1.2 10-1.2.r 11-1.3.2.1.1 12-1.3.2 14-1.3.2.2
+(r / remember-01~e.0 :mode imperative 
+      :ARG0~e.10 (y / you~e.10) 
+      :ARG1 (h / have-purpose-91 
+            :ARG1 (s / sue-02~e.3 
+                  :ARG2~e.4 (l2 / libel-01~e.5)) 
+            :ARG2 (a / and~e.12 
+                  :op1 (c / clear-01~e.9 
+                        :ARG1 (n / name~e.11 
+                              :poss y)) 
+                  :op2 (c2 / compensate-01~e.14 
+                        :ARG2 y) 
+                  :mod (o / only~e.7))))
+
+# ::id bolt12_10495_6194.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok After Lee Teng @-@ hui put forth the " two states theory ", due to mainland countrymen being deceived by the CCP 's propaganda machine , many people advocated using force to unite Taiwan .
+# ::alignments 0-1.3 1-1.3.1.1.2.1 2-1.3.1.1.2.2 4-1.3.1.1.2.2 5-1.3.1 9-1.3.1.2.2.1 10-1.3.1.2.2.2 11-1.3.1.2.2.3 13-1.4 14-1.4 15-1.4.1.2.2 18-1.4.1 19-1.4.1.1.r 21-1.4.1.1.2.2.1 22-1.4.1.1.2.r 23-1.4.1.1.1 24-1.4.1.1 26-1.1.1 27-1.1 28-1 29-1.2 30-1.2.1 32-1.2.2 33-1.2.2.1.2.1
+(a / advocate-01~e.28 
+      :ARG0 (p5 / person~e.27 
+            :quant (m3 / many~e.26)) 
+      :ARG1 (u / use-01~e.29 
+            :ARG1 (f / force-04~e.30) 
+            :purpose (u2 / unite-01~e.32 
+                  :ARG1 (c4 / country :wiki "Taiwan" 
+                        :name (n3 / name :op1 "Taiwan"~e.33)))) 
+      :time (a2 / after~e.0 
+            :op1 (p / put-out-10~e.5 
+                  :ARG0 (p2 / person :wiki "Lee_Teng-hui" 
+                        :name (n / name :op1 "Lee"~e.1 :op2 "Teng-hui"~e.2,4)) 
+                  :ARG1 (t / theory :wiki "Two_Chinas" 
+                        :name (n4 / name :op1 "Two"~e.9 :op2 "States"~e.10 :op3 "Theory"~e.11)))) 
+      :ARG1-of (c / cause-01~e.13,14 
+            :ARG0 (d / deceive-01~e.18 
+                  :ARG0~e.19 (m / machine~e.24 
+                        :purpose (p3 / propaganda~e.23) 
+                        :poss~e.22 (p4 / political-party :wiki "Communist_Party_of_China" 
+                              :name (n2 / name :op1 "CCP"~e.21))) 
+                  :ARG1 (m4 / man 
+                        :mod (c2 / country) 
+                        :location (m2 / mainland~e.15)))))
+
+# ::id bolt12_10495_6194.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Because they have no understanding whatsoever of the situation in Taiwan and the will of the Taiwan people ,
+# ::alignments 0-1 1-1.1.2 3-1.1.1 3-1.1.1.r 4-1.1 5-1.1.4 6-1.1.3.r 8-1.1.3.1 9-1.1.3.1.1.r 10-1.1.3.1.1.2.1 11-1.1.3 13-1.1.3.2 14-1.1.3.2.1.r 16-1.1.3.2.1.1 17-1.1.3.2.1
+(c / cause-01~e.0 
+      :ARG0 (u / understand-01~e.4 :polarity~e.3 -~e.3 
+            :ARG0 (t / they~e.1) 
+            :ARG1~e.6 (a / and~e.11 
+                  :op1 (s / situation~e.8 
+                        :location~e.9 (c3 / country :wiki "Taiwan" 
+                              :name (n / name :op1 "Taiwan"~e.10))) 
+                  :op2 (w2 / will~e.13 
+                        :poss~e.14 (p / person~e.17 
+                              :mod c3~e.16))) 
+            :degree (w / whatsoever~e.5)))
+
+# ::id bolt12_10495_6194.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok they universally exhibited extreme nationalistic sentiment .
+# ::alignments 0-1.1 1-1.3 2-1 3-1.2.1.1 5-1.2
+(e / exhibit-01~e.2 
+      :ARG0 (t / they~e.0) 
+      :ARG1 (s / sentiment~e.5 
+            :mod (n / nationalism 
+                  :mod (e2 / extreme~e.3))) 
+      :mod (u / universal~e.1))
+
+# ::id bolt12_10495_6194.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Just like the love @-@ hate fusion of nationalistic war sentiment that erupted after the US mistakenly bombed the Chinese embassy .
+# ::alignments 0-1 0-1.2 0-1.2.r 1-1 3-1.1.1 5-1.1.2 6-1.1 9-1.1.3.2 10-1.1.3 12-1.1.4 13-1.1.4.1 15-1.1.4.1.1.1.2.1 16-1.1.4.1.1.3 17-1.1.4.1.1 19-1.1.4.1.1.2.1.2.1 20-1.1.4.1.1.2
+(r / resemble-01~e.0,1 
+      :ARG2 (f / fuse-01~e.6 
+            :ARG1 (l / love-01~e.3) 
+            :ARG2 (h / hate-01~e.5) 
+            :ARG3 (s / sentiment~e.10 
+                  :mod (n / nationalism) 
+                  :mod (w / war~e.9)) 
+            :ARG1-of (e / erupt-01~e.12 
+                  :time (a / after~e.13 
+                        :op1 (b / bomb-01~e.17 
+                              :ARG0 (c / country :wiki "United_States" 
+                                    :name (n3 / name :op1 "US"~e.15)) 
+                              :ARG1 (e2 / embassy~e.20 
+                                    :poss (c2 / country :wiki "China" 
+                                          :name (n2 / name :op1 "China"~e.19))) 
+                              :ARG1-of (m / mistake-02~e.16 
+                                    :ARG0 c))))) 
+      :mod~e.0 (j / just~e.0))
+
+# ::id bolt12_10495_6194.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok They similarly did not understand the real story in Kosovo .
+# ::alignments 0-1.2 1-1.4 3-1.1 3-1.1.r 4-1 6-1.3.2 7-1.3 8-1.3.1.r 9-1.3.1.2.1
+(u / understand-01~e.4 :polarity~e.3 -~e.3 
+      :ARG0 (t / they~e.0) 
+      :ARG1 (s / story~e.7 
+            :location~e.8 (c / country :wiki "Kosovo" 
+                  :name (n / name :op1 "Kosovo"~e.9)) 
+            :ARG1-of (r / real-04~e.6)) 
+      :ARG1-of (r2 / resemble-01~e.1))
+
+# ::id bolt12_10495_6194.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok But Hong Kong people realize that first there was the Republic of China , only after that came " New China ";
+# ::alignments 0-1 1-1.1.1.1.2.1 2-1.1.1.1.2.2 3-1.1.1 4-1.1 5-1.1.2.r 6-1.1.2.1.3 10-1.1.2.1.2.1 11-1.1.2.1.2.2 12-1.1.2.1.2.3 14-1.1.2.2.2.2 15-1.1.2.2.2 17-1.1.2.2 19-1.1.2.2.1.2.1 20-1.1.2.2.1.2.2
+(c / contrast-01~e.0 
+      :ARG2 (r / realize-01~e.4 
+            :ARG0 (p / person~e.3 
+                  :mod (c2 / city :wiki "Hong_Kong" 
+                        :name (n / name :op1 "Hong"~e.1 :op2 "Kong"~e.2))) 
+            :ARG1~e.5 (a2 / and 
+                  :op1 (c3 / country :wiki "Taiwan" 
+                        :name (n2 / name :op1 "Republic"~e.10 :op2 "of"~e.11 :op3 "China"~e.12) 
+                        :time (f / first~e.6)) 
+                  :op2 (c4 / come-03~e.17 
+                        :ARG1 (c5 / country :wiki - 
+                              :name (n3 / name :op1 "New"~e.19 :op2 "China"~e.20)) 
+                        :time (a / after~e.15 
+                              :op1 c3 
+                              :mod (o / only~e.14))))))
+
+# ::id bolt12_10495_6194.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok While this " Two States Separatist Theory " has purely and simply been dreamed up by the CCP .
+# ::alignments 0-1 1-1.1.2.3 3-1.1.2.2.1 4-1.1.2.2.2 5-1.1.2.2.3 6-1.1.2.2.4 9-1.1.3 11-1.1.4 13-1.1 14-1.1 15-1.1.1.r 17-1.1.1.2.1
+(c / contrast-01~e.0 
+      :ARG2 (d / dream-up-02~e.13,14 
+            :ARG0~e.15 (p / political-party :wiki "Communist_Party_of_China" 
+                  :name (n2 / name :op1 "CCP"~e.17)) 
+            :ARG1 (t / thing :wiki - 
+                  :name (n / name :op1 "Two"~e.3 :op2 "States"~e.4 :op3 "Separatist"~e.5 :op4 "Theory"~e.6) 
+                  :mod (t2 / this~e.1)) 
+            :ARG1-of (p2 / pure-02~e.9) 
+            :manner (s / simple~e.11)))
+
+# ::id bolt12_10495_6194.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Lee Teng @-@ hui was doing nothing but bringing an already existing phenomenon to light .
+# ::alignments 0-1.1.2.1 1-1.1.2.2 3-1.1.2.2 5-1 6-1.2 7-1.2.1 8-1.2.1.1 10-1.2.1.1.2.1.1 11-1.2.1.1.2.1 12-1.2.1.1.2 13-1.2.1.1.3.r 14-1.2.1.1.3
+(d / do-02~e.5 
+      :ARG0 (p / person :wiki "Lee_Teng-hui" 
+            :name (n / name :op1 "Lee"~e.0 :op2 "Teng-hui"~e.1,3)) 
+      :ARG1 (n2 / nothing~e.6 
+            :ARG2-of (e2 / except-01~e.7 
+                  :ARG1 (b / bring-01~e.8 
+                        :ARG0 p 
+                        :ARG1 (p2 / phenomenon~e.12 
+                              :ARG1-of (e / exist-01~e.11 
+                                    :time (a / already~e.10))) 
+                        :ARG2~e.13 (l / light~e.14)))))
+
+# ::id bolt12_10495_6194.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Moreover , the grand old men of the CCP who handed over on a silver platter a huge chunk of land in Manchuria north of the Amur River to Soviet Russia , who gave away land equivalent to ten percent of national territory in northern Mongolia ; why not take this back , instead of insisting on trying to grab back a Taiwan that remains in the hands of Chinese people ?
+# ::alignments 0-1 0-1.1.3 3-1.1.2.2 4-1.1.2.1 5-1.1.2 8-1.1.2.3.1.2.1 9-1.1.5.1 10-1.1.2.4 12-1.1.2.4.3.r 14-1.1.2.4.3.1 15-1.1.2.4.3 17-1.1.2.4.1.2 18-1.1.2.4.1 19-1.1.2.4.1.1.r 20-1.1.2.4.1.1 21-1.1.2.4.1.3.r 22-1.1.2.4.1.3.2.1 23-1.1.2.4.1.4.2 26-1.1.2.4.1.4.1.2.1 27-1.1.2.4.1.4.1 28-1.1.2.4.2.r 29-1.1.2.4.2.2.1 30-1.1.2.4.2.2.2 32-1.1.5.1 33-1.1.2.5 34-1.1.2.5 35-1.1.2.5.1 36-1.1.2.5.1.1 37-1.1.2.5.1.1.1.r 38-1.1.2.5.1.1.1.1 39-1.1.2.5.1.1.1 40-1.1.2.5.1.1.1.2.r 41-1.1.2.5.1.1.1.2.1 42-1.1.2.5.1.1.1.2 43-1.1.2.5.1.2.r 44-1.1.2.5.1.2 45-1.1.2.5.1.2.1.2.1 47-1.1.5 47-1.1.5.1 47-1.1.5.1.r 48-1.1.1 48-1.1.1.r 49-1.1 51-1.1.4 53-1.1.6 54-1.1.6 55-1.1.6.1 56-1.1.6.1.2.r 57-1.1.6.1.2 59-1.1.6.1.2.2 60-1.1.6.1.2.2.3 62-1.1.6.1.2.2.2.2.1 64-1.1.6.1.2.2.2 64-1.1.6.1.2.2.2.3 64-1.1.6.1.2.2.2.3.r 65-1.1.6.1.2.2.2.3.1.r 67-1.1.6.1.2.2.2.3.1 68-1.1.6.1.2.2.2.3.1.1.r 69-1.1.6.1.2.2.2.3.1.1.1.2.1 70-1.1.6.1.2.2.2.3.1.1
+(a3 / and~e.0 
+      :op2 (t / take-01~e.49 :polarity~e.48 -~e.48 
+            :ARG0 (m / man~e.5 
+                  :mod (o / old~e.4) 
+                  :mod (g3 / grand~e.3) 
+                  :ARG0-of (h4 / have-org-role-91 
+                        :ARG1 (p / political-party :wiki "Communist_Party_of_China" 
+                              :name (n / name :op1 "CCP"~e.8))) 
+                  :ARG0-of (h / hand-01~e.10 
+                        :ARG1 (c2 / chunk~e.18 
+                              :part-of~e.19 (l / land~e.20) 
+                              :mod (h2 / huge~e.17) 
+                              :location~e.21 (c3 / country-region :wiki "Manchuria" 
+                                    :name (n9 / name :op1 "Manchuria"~e.22)) 
+                              :location (r3 / relative-position 
+                                    :op1 (r2 / river~e.27 :wiki "Amur_River" 
+                                          :name (n8 / name :op1 "Amur"~e.26)) 
+                                    :direction (n2 / north~e.23))) 
+                        :ARG2~e.28 (c4 / country :wiki "Soviet_Union" 
+                              :name (n3 / name :op1 "Soviet"~e.29 :op2 "Russia"~e.30)) 
+                        :manner~e.12 (p2 / platter~e.15 
+                              :consist-of (s / silver~e.14))) 
+                  :ARG0-of (g / give-away-02~e.33,34 
+                        :ARG1 (l2 / land~e.35 
+                              :ARG1-of (e / equal-01~e.36 
+                                    :ARG2~e.37 (p3 / percentage-entity~e.39 :value 10~e.38 
+                                          :part-of~e.40 (t3 / territory~e.42 
+                                                :mod (n5 / nation~e.41)))) 
+                              :location~e.43 (n10 / north~e.44 
+                                    :part-of (c5 / country :wiki "Mongolia" 
+                                          :name (n4 / name :op1 "Mongolia"~e.45)))))) 
+            :ARG1 (a2 / and~e.0 
+                  :op1 c2 
+                  :op2 l2) 
+            :ARG3 (b / back~e.51) 
+            :ARG1-of (c6 / cause-01~e.47 
+                  :ARG0~e.47 (a / amr-unknown~e.9,32,47)) 
+            :ARG1-of (i2 / instead-of-91~e.53,54 
+                  :ARG2 (i / insist-01~e.55 
+                        :ARG0 m 
+                        :ARG1~e.56 (t2 / try-01~e.57 
+                              :ARG0 m 
+                              :ARG1 (g2 / grab-01~e.59 
+                                    :ARG0 m 
+                                    :ARG1 (c / country~e.64 :wiki "Taiwan" 
+                                          :name (n7 / name :op1 "Taiwan"~e.62) 
+                                          :ARG1-of~e.64 (r / remain-01~e.64 
+                                                :ARG3~e.65 (h3 / hand~e.67 
+                                                      :part-of~e.68 (p4 / person~e.70 
+                                                            :mod (c7 / country :wiki "China" 
+                                                                  :name (n6 / name :op1 "China"~e.69)))))) 
+                                    :mod (b2 / back~e.60)))))))
+
+# ::id bolt12_10495_6194.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok However , even though Hong Kong people have their grumbles , the " two states theory " has in no way triggered a sentimental attachment in Hong Kong people for " Old China ".
+# ::alignments 0-1 0-1.1.5.r 2-1.1.5.r 3-1.1.5.r 4-1.1.5.1.1.2.1 5-1.1.5.1.1.2.2 6-1.1.5.1 9-1.1.5 13-1.1.2.2.1 14-1.1.2.2.2 15-1.1.2.2.3 19-1.1.1 19-1.1.1.r 20-1.1.4 20-1.1.4.r 21-1.1 24-1.1.3 25-1.1.3.2.r 26-1.1.3.2 27-1.1.3.2 28-1.1.3.2 31-1.1.3.3.2.1 32-1.1.3.3.2.2
+(c / contrast-01~e.0 
+      :ARG2 (t / trigger-01~e.21 :polarity~e.19 -~e.19 
+            :ARG0 (t2 / theory :wiki "Two_Chinas" 
+                  :name (n / name :op1 "Two"~e.13 :op2 "States"~e.14 :op3 "Theory"~e.15)) 
+            :ARG1 (a / attach-01~e.24 
+                  :ARG0 t2 
+                  :ARG1~e.25 p~e.26,27,28 
+                  :ARG2 (c3 / country :wiki - 
+                        :name (n4 / name :op1 "Old"~e.31 :op2 "China"~e.32)) 
+                  :mod (s / sentiment)) 
+            :manner~e.20 (w / way~e.20) 
+            :concession~e.0,2,3 (g / grumble-01~e.9 
+                  :ARG0 (p / person~e.6 
+                        :mod (c2 / city :wiki "Hong_Kong" 
+                              :name (n2 / name :op1 "Hong"~e.4 :op2 "Kong"~e.5))))))
+
+# ::id bolt12_10510_8171.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok I believe that our building industry here has not yet reached this level .
+# ::alignments 0-1.1 1-1 2-1.2.r 3-1.2.1.2 3-1.2.1.2.r 4-1.2.1.1 5-1.2.1 6-1.2.1.3 8-1.2.3.1 8-1.2.3.1.r 9-1.2.3 10-1.2 11-1.2.2.1 12-1.2.2
+(b / believe-01~e.1 
+      :ARG0 (i / i~e.0) 
+      :ARG1~e.2 (r / reach-01~e.10 
+            :ARG0 (i2 / industry~e.5 
+                  :mod (b2 / build-01~e.4) 
+                  :poss~e.3 (w / we~e.3) 
+                  :location (h / here~e.6)) 
+            :ARG1 (l / level~e.12 
+                  :mod (t / this~e.11)) 
+            :time (y / yet~e.9 :polarity~e.8 -~e.8)))
+
+# ::id bolt12_10510_8171.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Not only has the law not yet reached this level , but the average person 's understanding has generally not reached this level .
+# ::alignments 0-1.1.1.r 4-1.1.2 5-1.1.1.r 6-1.1.4 7-1.1 8-1.1.3.1 9-1.1.3 13-1.2.2.1.1 14-1.2.2.1 15-1.2.2.1.r 16-1.2.2 18-1.2.4 19-1.1.1 19-1.2.1 19-1.2.1.r 20-1.2 21-1.2.3 22-1.2.3
+(a2 / and 
+      :op1 (r / reach-01~e.7 :polarity~e.0,5 -~e.19 
+            :ARG0 (l2 / law~e.4) 
+            :ARG1 (l / level~e.9 
+                  :mod (t / this~e.8)) 
+            :time (y / yet~e.6)) 
+      :op2 (r2 / reach-01~e.20 :polarity~e.19 -~e.19 
+            :ARG0 (u / understand-01~e.16 
+                  :ARG0~e.15 (p / person~e.14 
+                        :ARG1-of (a / average-03~e.13))) 
+            :ARG1 l~e.21,22 
+            :ARG1-of (g / general-02~e.18)))
+
+# ::id bolt12_10510_8171.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Some officials , out of local economic considerations , by accident or design are frequently too lenient in dealing with property agents .
+# ::alignments 0-1.4.1.1 1-1.4.1.2.1 5-1.5.1.1.1 6-1.5.1.1 7-1.5.1 10-1.3.1 11-1.3 12-1.3.2 13-1.4.r 14-1.2 15-1.1 16-1 18-1.4 19-1.4.2.r 20-1.4.2.1 21-1.4.2
+(l / lenient~e.16 
+      :degree (t / too~e.15) 
+      :ARG1-of (f / frequent-02~e.14) 
+      :manner (o2 / or~e.11 
+            :op1 (a / accident~e.10) 
+            :op2 (d / design-02~e.12 
+                  :ARG0 p2)) 
+      :domain~e.13 (d2 / deal-01~e.18 
+            :ARG0 (p2 / person 
+                  :quant (s / some~e.0) 
+                  :ARG0-of (h / have-org-role-91 
+                        :ARG2 (o / official~e.1))) 
+            :ARG2~e.19 (a2 / agent~e.21 
+                  :mod (p / property~e.20))) 
+      :ARG1-of (c2 / cause-01 
+            :ARG0 (c / consider-01~e.7 
+                  :ARG1 (e / economy~e.6 
+                        :ARG1-of (l2 / local-02~e.5)))))
+
+# ::id bolt12_10510_8171.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok We all saw the damage wreaked by the Wenchuan Earthquake .
+# ::alignments 0-1.1 1-1.1.1 2-1 4-1.2 5-1.2.2 6-1.2.2.1.r 8-1.2.2.1.2.1 9-1.2.2.1.2.2
+(s / see-01~e.2 
+      :ARG0 (w / we~e.0 
+            :mod (a / all~e.1)) 
+      :ARG1 (d / damage-01~e.4 
+            :ARG0 e 
+            :ARG1-of (w2 / wreak-01~e.5 
+                  :ARG0~e.6 (e / earthquake :wiki "2008_Sichuan_earthquake" 
+                        :name (n / name :op1 "Wenchuan"~e.8 :op2 "Earthquake"~e.9)))))
+
+# ::id bolt12_10510_8171.5 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok As to how much of this was a result of natural disaster , and how much was man @-@ made calamity , a verdict will be drawn in the end .
+# ::alignments 0-1.2.r 2-1.3.1.1.r 2-1.3.2.1.r 3-1.3.1.1.r 3-1.3.2.1.r 5-1.3.1.1.1.1 8-1.3.1.1 8-1.3.1.1.2 8-1.3.1.1.2.r 8-1.3.2.1 8-1.3.2.1.2 8-1.3.2.1.2.r 9-1.3.1.1.2.1.r 10-1.3.1.1.2.1.1 11-1.3.1.1.2.1 13-1.3 14-1.3.1.1.r 14-1.3.2.1.r 15-1.3.1.1.r 15-1.3.2.1.r 17-1.3.2.1.2.1.1.1 19-1.3.2.1.2.1.1 20-1.3.2.1.2.1 23-1.1 26-1 29-1.2
+(d / draw-02~e.26 
+      :ARG1 (v / verdict~e.23) 
+      :time~e.0 (e / end-01~e.29) 
+      :topic (a / and~e.13 
+            :op1 (t / thing 
+                  :quant-of~e.2,3,14,15 (t4 / thing~e.8 
+                        :ARG1-of (i / include-91 
+                              :ARG2 (t3 / this~e.5)) 
+                        :ARG2-of~e.8 (r3 / result-01~e.8 
+                              :ARG1~e.9 (d2 / disaster~e.11 
+                                    :ARG1-of (n / natural-03~e.10))))) 
+            :op2 (t2 / thing 
+                  :quant-of~e.2,3,14,15 (t5 / thing~e.8 
+                        :ARG1-of (i2 / include-91 
+                              :ARG2 t3) 
+                        :ARG2-of~e.8 (r4 / result-01~e.8 
+                              :ARG1 (c / calamity~e.20 
+                                    :ARG1-of (m / make-01~e.19 
+                                          :ARG0 (m2 / man~e.17))))))))
+
+# ::id bolt12_10510_8171.6 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Apparently , quality checks in the space industry are extremely rigorous , each part undergoes several inspection processes , every effort is made to ensure absolute safety .
+# ::alignments 0-1 2-1.1.1.1.1 3-1.1.1.1 4-1.1.1.1.2.r 6-1.1.1.1.2.1 7-1.1.1.1.2 8-1.1.1.1.r 9-1.1.1.2 10-1.1.1 12-1.1.2.1.1 13-1.1.2.1 14-1.1.2 15-1.1.2.2.2 16-1.1.2.2.1 17-1.1.2.2 19-1.1.3.2 20-1.1.3 22-1.1.3.1 24-1.1.3.1 25-1.1.3.1.1.1 26-1.1.3.1.1
+(a / appear-02~e.0 
+      :ARG1 (a2 / and 
+            :op1 (r / rigorous~e.10 
+                  :domain~e.8 (c / check-01~e.3 
+                        :ARG1 (q / quality~e.2) 
+                        :prep-in~e.4 (i / industry~e.7 
+                              :mod (s / space~e.6))) 
+                  :degree (e / extreme~e.9)) 
+            :op2 (u / undergo-28~e.14 
+                  :ARG1 (p / part~e.13 
+                        :mod (e2 / each~e.12)) 
+                  :ARG2 (p2 / process-02~e.17 
+                        :ARG1 (i2 / inspect-01~e.16) 
+                        :quant (s2 / several~e.15))) 
+            :op3 (e4 / effort-01~e.20 
+                  :ARG1 (e5 / ensure-01~e.22,24 
+                        :ARG1 (s3 / safe-01~e.26 
+                              :degree (a3 / absolute~e.25))) 
+                  :mod (e3 / every~e.19))))
+
+# ::id bolt12_10510_8171.7 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok But space ship accidents still happen from time to time .
+# ::alignments 0-1 1-1.1.1.1 2-1.1.1 3-1.1 4-1.1.3 7-1.1.3.r 9-1.1.3.r
+(c / contrast-01~e.0 
+      :ARG2 (a / accident~e.3 
+            :mod (s / ship~e.2 
+                  :mod (s2 / space~e.1)) 
+            :frequency (o / occasional) 
+            :time~e.7,9 (s3 / still~e.4)))
+
+# ::id bolt12_10510_8171.8 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Even such technologically advanced nations as the US have experienced several instances of space flight launch or return failures .
+# ::alignments 0-1.1.3 1-1.1.4 2-1.1.1.1 3-1.1.1 4-1.1 5-1.1.2.r 7-1.1.2.2.1 8-1 9-1 10-1.2.2 11-1.2 12-1.2.1.r 13-1.2.1.1.1.1.1 14-1.2.1.1.1.1 15-1.2.1.1.1 16-1.2.1.1 17-1.2.1.1.2 18-1.2.1
+(e / experience-01~e.8,9 
+      :ARG0 (n / nation~e.4 
+            :ARG1-of (a / advanced-02~e.3 
+                  :ARG2 (t / technology~e.2)) 
+            :example~e.5 (c / country :wiki "United_States" 
+                  :name (n2 / name :op1 "US"~e.7)) 
+            :mod (e2 / even~e.0) 
+            :mod (s3 / such~e.1)) 
+      :ARG1 (i / instance~e.11 
+            :mod~e.12 (f / fail-01~e.18 
+                  :ARG1 (o / or~e.16 
+                        :op1 (l / launch-01~e.15 
+                              :ARG1 (f2 / fly-01~e.14 
+                                    :location (s2 / space~e.13))) 
+                        :op2 (r / return-01~e.17 
+                              :ARG1 f2))) 
+            :quant (s / several~e.10)))
+
+# ::id bolt12_10510_8171.9 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Since things can still go wrong even when they are subjected to incredibly rigorous inspections as in the space industry , then , with our current " dark " and corrupt property industry the way it is , people 's lives are even harder to place guarantees on .
+# ::alignments 0-1.3 1-1.3.1.1.1 1-1.3.1.1.1.1 1-1.3.1.1.1.1.r 2-1.3.1 3-1.3.1.1.3 4-1.3.1.1 5-1.3.1.1.2 6-1.3.1.1.4 6-1.3.1.1.4.1.3 7-1.3.1.1.4 8-1.3.1.1.4.1.1 10-1.3.1.1.4.1 11-1.3.1.1.4.1.2.r 12-1.3.1.1.4.1.2.1.1 13-1.3.1.1.4.1.2.1 14-1.3.1.1.4.1.2 15-1.4.1.1.1.1.r 16-1.3.1.1.1.1.1.r 18-1.3.1.1.1.1.1.1 19-1.3.1.1.1.1.1 24-1.4.1.1.1.2 24-1.4.1.1.1.2.r 25-1.4.1.1.1.1 27-1.4.1.1 29-1.4.1 30-1.4.1.2 31-1.4.1.2.1 32-1.4.1.2.1 38-1.1.1.1 39-1.1.1.1.r 40-1.1.1 42-1.2.1 43-1 43-1.2 43-1.2.r 44-1.3 44-1.4 46-1.1
+(h / hard-02~e.43 
+      :ARG1 (g / guarantee-01~e.46 
+            :ARG1 (l / life~e.40 
+                  :poss~e.39 (p / person~e.38))) 
+      :degree~e.43 (m / more~e.43 
+            :mod (e / even~e.42)) 
+      :ARG1-of (c3 / cause-01~e.0,44 
+            :ARG0 (p3 / possible-01~e.2 
+                  :ARG1 (g2 / go-08~e.4 
+                        :ARG1 (t2 / thing~e.1 
+                              :example~e.1 (t / thing~e.1 
+                                    :prep-in~e.16 (i3 / industry~e.19 
+                                          :mod (s2 / space~e.18)))) 
+                        :ARG2 (w / wrong-02~e.5 
+                              :ARG1 t2) 
+                        :mod (s3 / still~e.3) 
+                        :concession (e3 / even-when~e.6,7 
+                              :op1 (s / subject-01~e.10 
+                                    :ARG1 t2~e.8 
+                                    :ARG2~e.11 (i2 / inspect-01~e.14 
+                                          :mod (r / rigorous~e.13 
+                                                :degree (i4 / incredible~e.12))) 
+                                    :mod (e2 / even~e.6)))))) 
+      :ARG1-of (c4 / cause-01~e.44 
+            :ARG0 (a / and~e.29 
+                  :op1 (d / dark-03~e.27 
+                        :ARG1 (i / industry 
+                              :time~e.15 (c2 / current~e.25) 
+                              :poss~e.24 (w2 / we~e.24) 
+                              :mod (p2 / property))) 
+                  :op2 (c / corrupt-01~e.30 
+                        :ARG1 i~e.31,32))))
+
+# ::id bolt12_10510_8171.10 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Once a powerful earthquake strikes , the people 's lives really do become as tiny as those of ants .
+# ::alignments 2-1.2.1.1 3-1.2.1 4-1.2 7-1.1.1.1 8-1.1.1.1.r 8-1.1.1.r 9-1.1.1 9-1.1.3 10-1.3 12-1 13-1.2.r 14-1.1 15-1.2.r 17-1.1.3.1.r 18-1.1.3.1
+(b / become-01~e.12 
+      :ARG1 (t2 / tiny~e.14 
+            :domain~e.8 (l / life~e.9 
+                  :poss~e.8 (p / person~e.7)) 
+            :degree (e / equal) 
+            :compared-to (l2 / life~e.9 
+                  :poss~e.17 (a / ant~e.18))) 
+      :time~e.13,15 (s / strike-01~e.4 
+            :ARG2 (e4 / earthquake~e.3 
+                  :ARG1-of (p2 / powerful-02~e.2))) 
+      :ARG1-of (r / real-04~e.10))
+
+# ::id bolt12_10510_8171.11 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok It makes one tremble even without fear .
+# ::alignments 0-1.1 1-1 2-1.2.1 3-1.2 4-1.2.2.3 5-1.2.2.1 5-1.2.2.1.r 6-1.2.2
+(m / make-02~e.1 
+      :ARG0 (i / it~e.0) 
+      :ARG1 (t / tremble-01~e.3 
+            :ARG1 (o / one~e.2) 
+            :manner (f / fear-01~e.6 :polarity~e.5 -~e.5 
+                  :ARG0 o 
+                  :mod (e / even~e.4))))
