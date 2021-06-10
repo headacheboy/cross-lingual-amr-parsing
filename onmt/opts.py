@@ -358,7 +358,7 @@ def translate_opts(parser):
     """ Translation / inference options """
     group = parser.add_argument_group('Model')
     group.add('--model', '-model', dest='models', metavar='MODEL',
-              nargs='+', type=str, default=[], required=True,
+              nargs='+', type=str, default=[],
               help='Path to model .pt file(s). '
               'Multiple models can be specified, '
               'for ensemble decoding.')
