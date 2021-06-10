@@ -44,7 +44,7 @@ and predicting
 python cross_translate.py --decode_extra_length 1000 --minimal_relative_prob 0.01 --gpu 0 --src your_input_file_path --translate_input your_eng_input_file_path --output your_output_path --model_path your_model_path --xlmr_path xlmr_folder_path
 ```
 
-Notice that model_path for predicting is the model trained by this code instead of the S2S-AMR-Parser.
+Notice that model_path for predicting is the model trained with this code instead of the S2S-AMR-Parser. Our temporary best model is in [here](https://drive.google.com/file/d/1SOJ0fiXpWUCkstBVq-6G9-ed5xjv330w/view?usp=sharing)
 
 ### Acknowledgements
 
