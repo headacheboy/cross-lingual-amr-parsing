@@ -6,7 +6,7 @@ This is the implementation of [Making Better Use of Bilingual Information for Cr
 
 Before training, download the pretrained S2S-AMR-Parser in [this repo](https://github.com/xdqkid/S2S-AMR-Parser)
 
-The training data in English we used is AMR 2.0[(here)](https://catalog.ldc.upenn.edu/LDC2017T10). To get training data in DE, IT, ES and ZH, use MarianMT[(here)](https://huggingface.co/transformers/model_doc/marian.html) or other machine translation system. 
+The training data in English we used is AMR 2.0[(here)](https://catalog.ldc.upenn.edu/LDC2017T10). To get training data and development data in DE, IT, ES and ZH, use MarianMT[(here)](https://huggingface.co/transformers/model_doc/marian.html) or other machine translation systems. 
 
 The test data in DE, IT, ES and ZH can be found [here](https://catalog.ldc.upenn.edu/LDC2020T07). 
 
@@ -48,4 +48,4 @@ Notice that model_path for predicting is the model trained with this code instea
 
 ### Acknowledgements
 
-We adapt the code from [S2S-AMR-Parser](https://github.com/xdqkid/S2S-AMR-Parser) and [RikVN/AMR](https://github.com/RikVN/AMR). Thanks to their open-source project. 
+We adapt the codes from [S2S-AMR-Parser](https://github.com/xdqkid/S2S-AMR-Parser) and [RikVN/AMR](https://github.com/RikVN/AMR). Thanks to their open-source projects. 
