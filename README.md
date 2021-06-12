@@ -38,7 +38,7 @@ The AMR file for evaluation is the **sample.txt.restore.final.form**
 
 ### Train and Predict
 
-Here is a command demo for training (several path should be changed in *train.py:L234-237*)
+Here is a command demo for training (several paths should be changed in *train.py:L234-237*)
 
 ```
 python train.py --model s2s_amr_parser_path --prefix train_data_folder_path --prefix_dev dev_data_folder_path --save_prefix save_folder_path --xlm_r_path xlmr_folder_path
