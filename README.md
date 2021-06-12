@@ -14,7 +14,7 @@ The test data in DE, IT, ES and ZH can be found [here](https://catalog.ldc.upenn
 
 Use codes in `AMR_scripts/` to preprocess and postprocess the AMR datasets. 
 
-Preprocessing:
+**Preprocessing:**
 
 ```
 python var_free_amrs.py -f sample_input/sample.txt
@@ -22,7 +22,8 @@ python var_free_amrs.py -f sample_input/sample.txt
 
 This will produce a text file and an AMR sequence file. Follow [this repo](https://github.com/xdqkid/S2S-AMR-Parser) to apply tokenization and BPE to original text file and AMR sequence file. Translate the text file to get *{lang}_train.txt* and *{lang}_dev.txt* (DE, IT, ES and ZH).
 
-Postprocessing:
+**Postprocessing:**
+
 first remove BPE of outputs
 ```
 sed -r 's/(@@ )|(@@ ?$)//g' sample.txt.bpe > sample.txt
