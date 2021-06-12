@@ -12,7 +12,7 @@ The test data in DE, IT, ES and ZH can be found [here](https://catalog.ldc.upenn
 
 ### Preprocss and Postprocess
 
-Use codes in `AMR_scripts/` to preprocess and postprocess the AMR graph. 
+Use codes in `AMR_scripts/` to preprocess and postprocess the AMR datasets. 
 
 Preprocessing:
 
@@ -20,19 +20,24 @@ Preprocessing:
 python var_free_amrs.py -f sample_input/sample.txt
 ```
 
+This will produce a text file and an AMR sequence file. Follow [this repo](https://github.com/xdqkid/S2S-AMR-Parser) to apply tokenization and BPE to original text file and AMR sequence file. Translate the text file to get *{lang}_train.txt* and *{lang}_dev.txt* (DE, IT, ES and ZH).
+
 Postprocessing:
 first remove BPE of outputs
 ```
-sed -r 's/(@@ )|(@@ ?$)//g' sent.amr.bpe > sent.amr
+sed -r 's/(@@ )|(@@ ?$)//g' sample.txt.bpe > sample.txt
 ```
 then run the code
 ```
-python postprocess_AMRs.py -f sample_output/sample.txt
+python postprocess_AMRs.py -f sample.txt
+python reformat_single_amrs.py -f sample.txt.restore.final -e .form
 ```
+
+The AMR file for evaluation is the **sample.txt.restore.final.form**
 
 ### Train and Predict
 
-Here is a command demo for training
+Here is a command demo for training (several path should be changed in *train.py:L234-237*)
 
 ```
 python train.py --model s2s_amr_parser_path --prefix train_data_folder_path --prefix_dev dev_data_folder_path --save_prefix save_folder_path --xlm_r_path xlmr_folder_path
