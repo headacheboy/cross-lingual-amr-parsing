@@ -166,7 +166,7 @@ class ParserModel(nn.Module):
             mask = (ground_truth_tgt == self.tgt_pad_id)
             token_num = torch.sum(1 - mask, dim=0).float()
             gt_loss = gt_loss.masked_fill(mask, 0)
-            gt_loss_per_token = torch.mean(torch.sum(gt_loss, dim=0) / token_num.unsqueeze(0))
+            gt_loss_per_token = torch.mean(torch.sum(gt_loss, dim=0) / token_num)
             #gt_loss_per_token = torch.mean(torch.sum(gt_loss, dim=0))
             pred = dec_final.argmax(dim=2)
             correct = (pred == ground_truth_tgt).view(seq_len, batch*self.lang_num)
@@ -179,7 +179,7 @@ class ParserModel(nn.Module):
                 src_loss = src_loss.view(src_len, src_batch)
                 src_loss = src_loss.masked_fill(src_mask, 0)
                 src_token_num = torch.sum(1 - src_mask, dim=0).float()
-                src_loss_per_token = torch.mean(torch.sum(src_loss, dim=0) / src_token_num.unsqueeze(0))
+                src_loss_per_token = torch.mean(torch.sum(src_loss, dim=0) / src_token_num)
                 #src_loss_per_token = torch.mean(torch.sum(src_loss, dim=0))
                 gt_loss_per_token = gt_loss_per_token + beta * src_loss_per_token
 
